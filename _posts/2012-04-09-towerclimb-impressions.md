@@ -8,7 +8,7 @@ categories:
 ---
 Mmm, if there's one thing I love it's procedurally generated games. Roguelikes are probably the best example of this, having been around since the 80s, and I enjoy them but am usually overcome by their complexity. My favourite one is [Spelunky][1], featuring a near-endless sidescrolling adventure downwards towards more treasure and more danger, but I recently discovered a new one, [TowerClimb][2].
 
-![TowerClimb](towerclimb.png)
+![TowerClimb](/assets/towerclimb.png)
 
 Instead of the wary step-by-step downward exploration of Spelunky, TowerClimb is a nail-biting crawl to the top punctuated by the occasional stomach-dropping leap. The slow speed at which you climb up walls or across ceilings is contrasted with the utter immediacy at which you can easily fall to your death, requiring you start your trek again at the start of the game. Various enemies and items are scattered along your path to help or hinder you.
 

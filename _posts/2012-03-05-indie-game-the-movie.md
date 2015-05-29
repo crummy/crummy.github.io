@@ -6,7 +6,7 @@ permalink: wp/indie-game-the-movie/52/
 categories:
   - Uncategorized
 ---
-![The directors]photo.jpg)
+![The directors](/assets/photo.jpg)
 
 Last Friday I was lucky enough to see the first screening of [Indie Game: The Movie][1] at the Rio Theatre with some friends. I'd pushed a few of them in to coming and was worried - I did the same thing once with Max Payne (the movie, that is) which obviously ended poorly. Turns out the movie was great and everyone loved it!
 

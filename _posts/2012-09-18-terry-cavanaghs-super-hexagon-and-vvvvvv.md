@@ -16,7 +16,7 @@ Cavanagh illustrates this ideal of fully exploring a simple combination of mecha
 
 Beautiful! If the game is thought of as a discrete set of mechanics, where every possibile combination of those mechanics are explored, then leaving out a puzzle such as Veni Vidi Vici would leave the game *incomplete*.
 
-![Super Hexagon](superhexagon.png)
+![Super Hexagon](/assets/superhexagon.png)
 
 Super Hexagon, though it plays very differently, still feels like it is made of the same DNA as VVVVVV. Part of this is due to the ultra-simple retro visual aesthetic and music, but it shares the minimalistic approach to game design, too. A player-controlled triangle rotates around the center of the screen, avoiding obstacles that come from the outer edge. (You can play a [simpler online version of the game at Kongregate][5].) Quick reactions are necessary, and muscle memorization as well as rote learning help players past their first five seconds, then ten, and then possibly even a full minute or two. If this sounds like oddly short gameplay sessions, consider that the game is on iOS, where as [Pocket Attack notes][6] one or two minute gameplay sessions often work best. Of course, the beauty of the game is every time you collide with a barrier and restart, you'll feel that you were so close to making it that you'll end up stringing together enough tries to fill half an hour.
 

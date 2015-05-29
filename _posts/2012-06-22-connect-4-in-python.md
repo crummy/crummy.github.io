@@ -6,7 +6,7 @@ permalink: wp/connect-4-in-python/89/
 categories:
   - Uncategorized
 ---
-![Connect 4](connect4.png)
+![Connect 4](/assets/connect4.png)
 
 I'm on a road trip from Santa Barbara to Portland, which should be the best time to write but the drive has given me writer's cramp.
 

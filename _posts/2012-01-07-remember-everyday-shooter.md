@@ -6,7 +6,7 @@ permalink: wp/remember-everyday-shooter/37/
 categories:
   - Uncategorized
 ---
-![Everyday Shooter](everyday.png)
+![Everyday Shooter](/assets/everyday.png)
 
 I missed the initial excitement for Everyday Shooter, after it was released on Playstation Network, a platform I didn't own a console for. But I'd heard enough about it to remain interested and when it finally saw a Steam release I picked it up on launch.
 

@@ -6,7 +6,7 @@ permalink: wp/dark-souls-a-game-like-they-used-to-be/111/
 categories:
   - Uncategorized
 ---
-![Dark Souls](2012-08-24_00001.jpg)
+![Dark Souls](/assets/2012-08-24_00001.jpg)
   
 I managed to avoid the whole Demon Souls/Dark Souls series by not having a Playstation 3, but heard enough about the games that I was awfully excited to see the sequel come out on PC finally. Both games seem to be very much love/hate affairs, with many gushing over their brutally unforgiving gameplay while others throw up their hands in disgust after dying over and over and over again.
 

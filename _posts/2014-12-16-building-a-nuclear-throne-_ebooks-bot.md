@@ -14,7 +14,7 @@ I decided to make an Nuclear Throne ebooks bot to combine the two.
 
 First I had to extract the load screen tips from the game. I was hoping they'd be in a simple text file, but it turns out that GameMaker (the tool used to create Nuclear Throne) bundles everything up, art and sounds and text and all, into one big data.win file. I thought briefly about a tool to parse this but instead just opened it in a hex editor, and searched for a load screen tip that I already knew.
 
-![data.win open in a hex editor](Screenshot-2014-12-15-17.34.52.png)
+![data.win open in a hex editor](/assets/Screenshot-2014-12-15-17.34.52.png)
 
 Luckily, I found all the tips near each other, so I took the hex of this and saved it elsewhere. I then created a Python script to turn the ASCII hex into actual strings:
 

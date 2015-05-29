@@ -6,7 +6,7 @@ permalink: wp/go-see-cabin-in-the-woods/72/
 categories:
   - Uncategorized
 ---
-![Cabin in the Woods poster](cabin.jpg)
+![Cabin in the Woods poster](/assets/cabin.jpg)
 
 I have two projects due this week and two midterms next week so all I'm going to say is: Go see [The Cabin in the Woods][1]. It's a non-traditional horror movie, and I hardly like horror movies at all. That's all the detail I want to get into because it's really a movie you should go see with as few expectations as possible.
 

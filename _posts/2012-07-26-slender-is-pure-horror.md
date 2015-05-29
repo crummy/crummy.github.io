@@ -6,7 +6,7 @@ permalink: wp/slender-is-pure-horror/98/
 categories:
   - Uncategorized
 ---
-![Slender](slender.png)
+![Slender](/assets/slender.png)
 
 I'm not a big fan of horror films or books most of the time, but I enjoy horror games - Alan Wake, Dead Space, ever since the original Aliens mod for Doom I've enjoyed the scary situations they provide and I think the difference is in a game I'm in control. Feeling afraid and facing it can be satisfying, and it avoids the whole 'oh god don't split up' thing that happens so much in horror films when you just wish characters would be smart.
 

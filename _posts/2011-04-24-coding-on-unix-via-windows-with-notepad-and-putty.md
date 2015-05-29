@@ -20,11 +20,11 @@ Many universities and colleges require a Unix coding environment for students, w
    * Click *Add New* and enter a suitable name.
    * Type in the address of your SSH server, with your username and password. You don't need to change any other settings here, unless you're accessing via FTP instead. Click *Close* when done. 
 
-![Profile Settings](npp_profile.png)
+![Profile Settings](/assets/npp_profile.png)
 
    * Click the connect button and select your connection 
 
-![Select your connection](npp_connect.png)
+![Select your connection](/assets/npp_connect.png)
 
    * Voila! Browse your files on the right, and double click them to edit.
             
@@ -34,16 +34,17 @@ Setting up PuTTY is not much more work. PuTTY offers a console interface to your
             
 1. [Download PuTTY][2] and install it.
 2. Enter your server's address, then type a name for the connection and click Save for easy access later. 
-![Enter your server name and save the connection](putty.png)
+
+![Enter your server name and save the connection](/assets/putty.png)
 
 * Highlight the connection in the list and click Open.
 * Enter your username and password as prompted.  
-                    Note: You may not see your password as you type. Don't worry, just press Enter when done.
+  Note: You may not see your password as you type. Don't worry, just press Enter when done.
  
-![Done!](putty_terminal.png)
+![Done!](/assets/putty_terminal.png)
 * Done! You may now type commands and compile code as if you were at a local terminal.
                     
-                    These tools provide a much friendlier environment for coding.
+These tools provide a much friendlier environment for coding.
 
  [1]: http://notepad-plus-plus.org/download
  [2]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html

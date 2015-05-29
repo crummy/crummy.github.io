@@ -10,7 +10,7 @@ Last week I went on a bit of a road trip of California, starting with a three da
 
 ### Day 0: Shady Rest campground
 
-![Car camping](IMAG00291.jpg)
+![Car camping](/assets/IMAG00291.jpg)
 
 We arrived a little late to get the camping permits on Sunday, so picked up our bear bin from Kitteridge Sports (you now need a bear-proof container when hiking in the Sierras, or you get a $5000 fine and get kicked out, apparently) and tested out our borrowed tent at a little camping spot on the edge of town. Tent worked well, marshmallows were roasted, all in all camping seemed pretty easy so far. Woke up the next morning, failed to sneak out in time before the ranger made us pay the $20 fee, then got our wilderness permits from the odd folks at the station and headed off.
 
@@ -18,7 +18,7 @@ We arrived a little late to get the camping permits on Sunday, so picked up our 
 
 We left the car at the Rainbow Falls parking lot, and started off our hike with a brief detour to see the falls. Apparently every year they recess deeper as the massive water flow etches away at the granite it sits on. And there were the promised rainbows! Tempting to look for a place for a swim but we wanted to be on our way as we had by far most of the hike ahead of us.
 
-![Rainbow Falls in full flow](IMAG0045_ZOE0041.jpg)
+![Rainbow Falls in full flow](/assets/IMAG0045_ZOE0041.jpg)
     
 Most of the hike on this first day was, thankfully, a gentle descent - initially with the backside of Mammoth in view, then way down the valley that Rainbow Falls led to. We met a couple campers about a third of the way along that had found a nice spot to set up and make day hikes from, but they hadn't reached the fabled hot springs. It wasn't until we turned west that we ran into a group that had left Iva Belle earlier - and it was only a few hours away, they said! Our goal was in sight... until the rain clouds rolled in.
 
@@ -33,7 +33,7 @@ At this point we were well and truly sore from the trek - Janet had blisters all
 
 A tip if you take the trek: Iva Belle is actually three small separate campsites about 50m from each other, all in a large green meadow that goes up the side of the hill. You'll know you're near because the streams of water everywhere will be warm! The third campsite is probably the nicest, with one of the pools directly beside it, and another a stone's throw away downstream. Apparently there are more pools up the side of the hill, but we didn't find any.
 
-![The next to the third camp - perfect temperature, about waist deep, just what is needed after a long hike](IMAG0073_ZOE0051.jpg)
+![The next to the third camp - perfect temperature, about waist deep, just what is needed after a long hike](/assets/IMAG0073_ZOE0051.jpg)
 
 ### Day 2: Iva Belle to Duck Lake (16.5km)
 
@@ -62,7 +62,7 @@ We almost immediately met more people hiking the Pacific Crest Trail, or PCTers 
 The third day was a great review of the trip, passing far above some of the locations we'd trekked across the days before. As we wound our way back towards Mammoth, Fish Creek disappeared and was replaced by the burned section near Rainbow Falls. Despite the near-constant downhill, this was probably the hardest part of the hike in that paradoxical way: Knowing the end is so close makes it seem that much further away, and the final two hours seemed to stretch out forever.
 
 
-![View from the John Muir Trail](IMAG0149_ZOE0031.jpg)
+![View from the John Muir Trail](/assets/IMAG0149_ZOE0031.jpg)
 
 We made it back in record time, walking the 18km in about 5 hours, ecstatic and exhausted. We picked up a few PCT hitchhikers who were looking to get a ride into Mammoth, then ate a big lunch and found a friend with a jacuzzi to visit. Definitely a recommended way to finish such a hike.
 

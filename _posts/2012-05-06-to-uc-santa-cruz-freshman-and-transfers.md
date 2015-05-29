@@ -8,7 +8,7 @@ categories:
 ---
 I signed up for the COMET program at school that connects existing transfers to potential transfers, so students interested in UCSC can talk to someone that's currently attending in their major. A couple of friends are attending, too so I thought I'd put down my advice on how to make the most of university here.
 
-![The Squiggle at sunset](squiggle.jpg)
+![The Squiggle at sunset](/assets/squiggle.jpg)
 
 ### Participate in naked run
 

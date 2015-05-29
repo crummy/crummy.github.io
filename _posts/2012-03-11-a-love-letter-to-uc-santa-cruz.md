@@ -7,7 +7,7 @@ categories:
   - Uncategorized
 ---
 
- ![Walking up Science Hill with the sun behind](ucsc.jpg)
+ ![Walking up Science Hill with the sun behind](/assets/ucsc.jpg)
 
 The day I found out I was going to UCSC was one of the most disappointing days of my life. I had planned for years to go to UCSB, and when they turned me down it meant leaving all my friends, my family, and various other plans for a place I'd never even been to. As move-in day neared I talked to a few friends who had been there who made me feel better, and the campus seemed cool when I visited for orientation, but it was still with a strong sense of trepidation and regret that I packed all my stuff up and left Santa Barbara.
 

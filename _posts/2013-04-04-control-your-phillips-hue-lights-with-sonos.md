@@ -7,7 +7,7 @@ categories:
   - Uncategorized
 --
 
-![My Sonos Desktop Controller with the reflection of a Hue light](Photo-Apr-04-12-38-10-AM.jpg)
+![My Sonos Desktop Controller with the reflection of a Hue light](/assets/Photo-Apr-04-12-38-10-AM.jpg)
 
 Once a quarter, we hold an 'Innovation Week' at Sonos, where employees are mostly free to take a break from their regularly assigned work and make something cool that's Sonos related. Sometimes these hacks can make it into future products or software releases, sometimes they are more funny than useful, sometimes they end up not even seeing the light of day (a week isn't a very long time it turns out!). For me it's a great way to put my rusting programming skills to use and learn a thing or two while I'm at it.
 
