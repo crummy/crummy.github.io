@@ -27,7 +27,7 @@ a, a:visited {
   width: 100%;
   height: 300px;
   box-shadow: 0 0.1em 1em $primary-text;
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
 h1 {
@@ -41,14 +41,14 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   box-shadow: 0 0 0.1em $primary-text;
-  z-index: 2;
+  z-index: 3;
 }
 #header ul {
   list-style: none;
   position: absolute;
   right: 0;
   top: 175px;
-  z-index: 2;
+  z-index: 3;
 }
 #header li {
   background-color: $accent-color;
@@ -83,7 +83,7 @@ h1 {
 }
 .post {
   position: relative;
-  z-index: 0;
+  z-index: 1;
   flex: 2;
   display: flex;
   max-width: 960px;
@@ -92,10 +92,15 @@ h1 {
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
 }
+.content iframe, .content img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
 .postfooter {
   position: relative;
-  z-index: -1;
-  top: 0;
+  z-index: 0;
+  top: 0.1em;
 }
 .navigation {
   max-width: 960px;
@@ -111,7 +116,7 @@ h1 {
 .navigation a {
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text; 
-  padding: 0.2em;
+  padding: 0.4em;
 }
 .title {
   flex: 1  0;
@@ -123,9 +128,6 @@ h2 {
 }
 .content {
   flex: 3 0 0 ;
-}
-.content img {
-  max-width: 100%;
 }
 #footer {
   background-color: $dark-primary-color;
