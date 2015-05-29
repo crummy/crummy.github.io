@@ -84,15 +84,15 @@ function drawColumn(snap, x, y, height, width, split, tilt) {
   var y3 = y + height + tilt;
   var face = snap.polygon(x, y, x1, y, x1, y1, x, y2)
                  .attr({
-                   "fill": snap.gradient("l(0.5, 0, 0.5, 1)#B6B6B6-#DCEDC8")
+                   "fill": snap.gradient("l(0.5, 0, 0.5, 1)#BBDEFB-#1976D2")
                  });
   var side = snap.polygon(x1, y, x2, y, x2, y2, x1, y1)
                  .attr({
-                   "fill": snap.gradient("l(0.5, 0, 0.5, 1)#B6B6B6-#8BC34A")
+                   "fill": snap.gradient("l(0.5, 0, 0.5, 1)#FFFFFF-#2196F3")
                  });
   var top = snap.polygon(x, y2, x1, y1, x2, y2, x3, y3)
                  .attr({
-                   "fill": "#689F38"
+                   "fill": "#0D47A1"
                  });
   return snap.group(face, side, top);
 }

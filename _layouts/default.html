@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/snap.svg-min.js"></script>
+    <script src="/js/header.js"></script>
+  </head>
+  <body onload="initHeader();">
+    <div id="header">
+      <h1>Malcolm Crum</h1>
+      <ul>
+        <li>Blog</li>
+        <li>Projects</li>
+      </ul>
+      <svg id="svgHeader"></svg>
+    </div>
+    
+    {{ content }}
+
+    <div id="footer">
+      <div>
+        I made this site.
+        Find me on: <a href="mailto:crummynz@gmail.com">Email</a>, Twitter, Github
+      </div>
+    </div>
+  </body>
+</html>
