@@ -2,13 +2,13 @@
 title: What makes a game feel good?
 author: Malcolm
 layout: post
-permalink: /what-makes-a-game-feel-good/36/
+permalink: wp/what-makes-a-game-feel-good/36/
 categories:
   - Uncategorized
 ---
-I&#8217;ve wondered what makes certain games &#8220;feel&#8221; better almost as long as I&#8217;ve noticed it. I [asked Reddit what they thought][1] and it made me realise that it&#8217;s even harder to answer this question people seem to have different definitions of what game &#8220;feel&#8221; is anyway. Something about the controls being responsive, cohesive interactions with appropriate feedback, a consistent aesthetic, as well as a half dozen other indicators factor in, apparently.
+I've wondered what makes certain games 'feel' better almost as long as I've noticed it. I [asked Reddit what they thought][1] and it made me realise that it's even harder to answer this question people seem to have different definitions of what game 'feel' is anyway. Something about the controls being responsive, cohesive interactions with appropriate feedback, a consistent aesthetic, as well as a half dozen other indicators factor in, apparently.
 
-Psychology uses the term &#8220;flow&#8221; to describe a state of [complete focus, involvement, and success][2]. I&#8217;d consider a game with good &#8220;feel&#8221; to be one that is effective at having the player enter a state of flow. This supports most of the ideas proposed in the Reddit comments; poor controls or feedback will break immersion or prevent it in the first place. Wikipedia lists [ten factors][3] that the psychologist Csíkszentmihályi defined as all contributing to flow:
+Psychology uses the term 'flow' to describe a state of [complete focus, involvement, and success][2]. I'd consider a game with good 'feel' to be one that is effective at having the player enter a state of flow. This supports most of the ideas proposed in the Reddit comments; poor controls or feedback will break immersion or prevent it in the first place. Wikipedia lists [ten factors][3] that the psychologist Csíkszentmihályi defined as all contributing to flow:
 
   1. *Clear [goals][4]*
   2. *Concentrating*
