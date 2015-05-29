@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Malcolm Crum 2015 with Snap.SVG</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/header.js"></script>
+  </head>
+  <body onload="initHeader();">
+    <div id="header">
+      <h1>Malcolm Crum</h1>
+      <ul>
+        <li>Blog</li>
+        <li>Projects</li>
+      </ul>
+      <svg id="svgHeader"></svg>
+    </div>
+    <div class="post">
+      <div class="title">
+        <h2>Building a Nuclear Throne ebooks bot</h2>
+        <div class="date">5th of May 2015</div>
+      </div>
+      <div class="content">
+        <p>A little background: @horse_ebooks at some point was a spam Twitter account that followed some algorithm to tweet odd amalgamations of sentences that people decided was cute or interesting. Eventually it turned into a weird art project thing but that’s not too important – eventually people took the idea and built their own little Twitter bots that did something similar.</p>
+
+        <p>Nuclear Throne is an amazing game by Vlambeer that I’ve written about before here, and it features little tips on load screens which are at times useful, at times amusing, and sometimes a bit inscrutable.</p>
+
+        <p>I decided to make an Nuclear Throne ebooks bot to combine the two.</p>
+
+        <p>First I had to extract the load screen tips from the game. I was hoping they’d be in a simple text file, but it turns out that GameMaker (the tool used to create Nuclear Throne) bundles everything up, art and sounds and text and all, into one big data.win file. I thought briefly about a tool to parse this but instead just opened it in a hex editor, and searched for a load screen tip that I already knew.</p>
+        <img src="http://www.malcolmcrum.com/wp/wp-content/uploads/2014/12/Screenshot-2014-12-15-17.34.52.png">
+        <p>Luckily, I found all the tips near each other, so I took the hex of this and saved it elsewhere. I then created a Python script to turn the ASCII hex into actual strings:</p>
+
+<ul><li>Convert each 8bit hex value to a character, discarding the 00s for padding and non-alphanumeric characters (not sure what they are used for)</li>
+<li>Concatenate characters to form strings, but splitting where the discarded characters were
+<li>Skip any strings that were all caps (these seem to be used for weapon names)</li>
+<li>Go through by hand and remove the few entries (index entries?) like “maxskill” or “area” that are not tips</li>
+</ul>
+<p>My initial plan was to at least just tweet these – doing some kind of language processing on them with markov chains (whatever they are) seemed a bit out of my league, but @BooDooPerson has a guide on making your own ebooks bot.</p>
+      </div>
+    </div>
+    <div id="footer">
+      <div>
+        I made this site.
+        Find me on: <a href="mailto:crummynz@gmail.com">Email</a>, Twitter, Github
+      </div>
+    </div>
+  </body>
+</html>
