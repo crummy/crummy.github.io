@@ -18,4 +18,4 @@ Unfortunately it runs very slowly, and I realised this is because pygame uses so
 
  [1]: http://gamedev.stackexchange.com/questions/27734/why-is-it-that-there-are-invalid-dt-values-in-physics-simulations
  [2]: http://gafferongames.com/game-physics/fix-your-timestep/
- [3]: timestep.zip
+ [3]: /assets/timestep.zip

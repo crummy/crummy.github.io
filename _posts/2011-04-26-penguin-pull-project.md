@@ -51,6 +51,6 @@ I really enjoyed working on Penguin Pull. I came away feeling like making a simp
  [3]: http://farseerphysics.codeplex.com/
  [4]: https://8bc.org/
  [5]: http://roecode.wordpress.com/2008/01/16/xna-framework-gameengine-development-part-5-texturemanagergamecomponent/
- [6]: PenguinPulldesigndoc.pdf
- [7]: penguinpull.zip
- [8]: penguin.zip
+ [6]: /assets/PenguinPulldesigndoc.pdf
+ [7]: /assets/penguinpull.zip
+ [8]: /assets/penguin.zip

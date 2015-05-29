@@ -14,4 +14,4 @@ Instead, I made Connect 4 in Python, using Pygame, to refresh my Python knowledg
 
   * [Connect 4 source][1]
 
- [1]: connect4.zip
+ [1]: /assets/connect4.zip

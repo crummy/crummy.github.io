@@ -27,7 +27,7 @@ Lastly, out of the fifteen or so visualisations that the class presented on the 
 
  [1]: http://shackapi.stonedonkey.com/readme/
  [2]: http://blog.ivank.net/force-based-graph-drawing-in-as3.html
- [3]: ShackCommunityJSON.zip
+ [3]: /assets/ShackCommunityJSON.zip
  [4]: http://www.youtube.com/watch?v=9w9TwP43_I0
  [5]: http://www.youtube.com/watch?v=BZwt8XlPtyU
  [6]: http://www.youtube.com/watch?v=_PWmwNuA6ys
