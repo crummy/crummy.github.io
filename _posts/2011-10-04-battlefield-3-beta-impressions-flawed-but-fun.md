@@ -9,7 +9,7 @@ categories:
 I've put about ten hours into the Battlefield 3 beta now, after getting in once it went public, and my general feeling about the game has changed from eager anticipation to mild disappointment and frustration upon release to now feeling pretty confident about the game. It definitely has some flaws but it's captured the excitement and fun of the previous games well.
 
 
-![Outdoors: Very pretty](bf3outdoors.png)
+![Outdoors: Very pretty](/assets/bf3outdoors.png)
 
 
 ### Origin and Battlelog
@@ -27,7 +27,7 @@ It's tough to tell what is part of beta and what is not. Some of the minor issue
   * **Map:** Other people have mentioned this before, but the map is pretty ridiculous. You have a thumbnail of the map in the corner, and if you press M, the thumbnail gets larger, but you don't see any additional map - just a larger version of the thumbnail. Maybe useful for console players with low-def TVs, but it seems like a foolish decision.
   * **Spawning**: This is a minor balance issue, but to boost the usefulness of mobile spawn points I don't think every spawn member needs to be able to spawn on every other squad member. Optimally, the squad leader could spawn on any member, and any member could spawn on the leader - plus any mobile spawn points planted by Recon classes.
 
-![Indoors everything has a cold hue and sounds echo](bf3indoors.png)
+![Indoors everything has a cold hue and sounds echo](/assets/bf3indoors.png)
 
 
 ### The good is great

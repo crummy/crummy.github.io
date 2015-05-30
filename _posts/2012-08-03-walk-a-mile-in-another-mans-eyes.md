@@ -8,7 +8,7 @@ categories:
 ---
 I can't really remember where I came upon it, but somehow I ended up with a pretty fascinating iPhone app called [Chromatic Vision Simulator][1]. It's a very simple app that utilises the camera - point it at something colourful, select a variety of colourblindness, and you'll see the colour-limited version on screen. It does it job without any fuss and even features a few nice side-by-side comparisons.
 
-![Seeing double](photo.jpg)
+![Seeing double](/assets/photo.jpg)
 
 The image above, a screen grab from the program, shows true colour on the right and protanope vision on the left, which is what I have - commonly known as red/green colourblind. The two images look pretty much identical to me, though if I toggle between the other two types of colourblindness I can see a large difference, especially tritanope which looks just about black and white.
 

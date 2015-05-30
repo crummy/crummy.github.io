@@ -10,7 +10,7 @@ When a consumer desires digital content, they have two choices available: pirati
 
 Consciously or not, consumers will weigh their options here based largely on two factors: Cost in time (hassle), and cost in money (price). You can even equate the two if you'd like but I'll keep them separate for now. Both of these facts work into purchasing content or pirating it, and by weighting them differently, consumer behaviour can be adjusted.
 
-There are two things to remember here: Piracy is never going to disappear, and everyone places different values on their time vs their money. What content providers can do is tip the scales in their favour, which they've started to do recently: [Steam][1], the[ iTunes store][2], and app stores on phones all are excellent examples of reducing hassle for consumers. On a smaller scale, the [Humble Bundle][3] and Radiohead have worked on adjusting cost in money, as well as Steam sales.
+There are two things to remember here: Piracy is never going to disappear, and everyone places different values on their time vs their money. What content providers can do is tip the scales in their favour, which they've started to do recently: [Steam][1], the [iTunes store][2], and app stores on phones all are excellent examples of reducing hassle for consumers. On a smaller scale, the [Humble Bundle][3] and Radiohead have worked on adjusting cost in money, as well as Steam sales.
 
 Pirates are working to reduce hassle on their end, too. Bittorrent has made it easy for a single person to distribute files to many without expensive web hosting, and Usenet binaries are an order of magnitude easier to deal with than they were five or ten years ago.
 
