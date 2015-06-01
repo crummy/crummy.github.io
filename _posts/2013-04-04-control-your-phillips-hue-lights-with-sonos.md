@@ -5,7 +5,7 @@ layout: post
 permalink: wp/control-your-phillips-hue-lights-with-sonos/139/
 categories:
   - Uncategorized
---
+---
 
 ![My Sonos Desktop Controller with the reflection of a Hue light](/assets/Photo-Apr-04-12-38-10-AM.jpg)
 

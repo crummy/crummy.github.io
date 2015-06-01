@@ -6,7 +6,7 @@ permalink: wp/hotline-miami-like-a-psychedlic-hangover/136/
 categories:
   - Uncategorized
 ---
-![Hotline Miami logo small](/assets/Hotline-Miami-Logo-Small-300x152.png)
+![Hotline Miami logo small](/assets/Hotline-Miami-Logo-Small.png)
 
 There are plenty of video games that match the bullet points on an imagined box for Hotline Miami. Plenty of senseless killing, fast action, gratuitous violence - it sounds like just another game action game, so why does it feel so different? It's hard to rave about the game without using phrases that are so overused they just sound generic (heart-pounding, gripping), but I think they are accurate.
 
@@ -23,4 +23,4 @@ The game is couched with a vague, drug-inspired storyline - the player receives 
  [2]: http://www.youtube.com/watch?v=By6FTXoyG_k
  [3]: http://www.youtube.com/watch?feature=player_detailpage&v=bOIVk1LE_2c#t=249s
  [4]: https://soundcloud.com/devolverdigital/sets/hotline-miami-official
- [4]: http://store.steampowered.com/app/219150/
+ [5]: http://store.steampowered.com/app/219150/
