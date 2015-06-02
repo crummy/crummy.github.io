@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/nuclear-throne-a-case-study-in-player-feedback/165/
 categories:
-  - Uncategorized
+  - blog
 ---
 <iframe width="420" height="315" src="https://www.youtube.com/embed/xn46bj4r0so" frameborder="0" allowfullscreen></iframe>
 

@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/ambient-light-controller/145/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![My lamp is placed behind my monitor](/assets/2013-04-21-22.27.49.jpg)
 

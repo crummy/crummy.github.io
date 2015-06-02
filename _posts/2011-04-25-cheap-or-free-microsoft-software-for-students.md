@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/cheap-or-free-microsoft-software-for-students/27/
 categories:
-  - Uncategorized
+  - blog
 ---
 If you're a student, you can get a bunch of software from Microsoft for significantly lower prices. The idea is that if Microsoft can get students to use the software, they'll go out into the industry with those skills, leading to companies purchasing more MS software.
 

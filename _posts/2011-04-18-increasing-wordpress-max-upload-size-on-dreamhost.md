@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/increasing-wordpress-max-upload-size-on-dreamhost/12/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - tips
   - wordpress

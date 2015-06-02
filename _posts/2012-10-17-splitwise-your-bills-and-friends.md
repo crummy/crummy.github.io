@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/splitwise-your-bills-and-friends/128/
 categories:
-  - Uncategorized
+  - blog
 ---
 Buying groceries with roommates, sharing bills, and splitting the check at restaurants seem to be a problem just waiting to be solved. Having to carry around cash is a pain enough, but now you've got to split change, remember who owes whom... I felt like, in our digital age, surely there's a simple way to keep a tab between friends?
 

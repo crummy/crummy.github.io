@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/coding-on-unix-via-windows-with-notepad-and-putty/14/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - coding
   - tips

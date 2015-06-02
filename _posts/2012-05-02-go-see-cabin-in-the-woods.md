@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/go-see-cabin-in-the-woods/72/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Cabin in the Woods poster](/assets/cabin.jpg)
 

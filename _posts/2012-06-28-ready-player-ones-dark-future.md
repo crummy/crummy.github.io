@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/ready-player-ones-dark-future/90/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - books
 ---

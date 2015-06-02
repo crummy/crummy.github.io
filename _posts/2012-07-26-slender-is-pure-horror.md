@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/slender-is-pure-horror/98/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Slender](/assets/slender.png)
 

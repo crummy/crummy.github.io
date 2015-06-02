@@ -2,12 +2,23 @@
 layout: default
 ---
 
-<div class="projects">
-  <h3>Recent Projects</h3>
-  Blah blah blah
-</div>
-
-<div class="experiments">
-  <h3>Recent Experiments</h3>
-  blah blah blah
+<div id="projects">
+  
+  {% for post in site.posts %}
+    {% if post.categories contains 'project' %}
+      <div class="project">
+        <h2 class="title">{{ post.title }}</h2>
+        <div class="container">
+          <div class="screenshot">{% if post.screenshot %}<img src="{{ post.screenshot }}">{% endif %}</div>
+          <div class="description">
+              {% for tag in post.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+              {{ post.content }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  
 </div>

@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/indie-game-the-movie/52/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![The directors](/assets/photo.jpg)
 

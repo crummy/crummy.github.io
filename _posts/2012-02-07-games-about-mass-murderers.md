@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/games-about-mass-murderers/44/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - design
 ---

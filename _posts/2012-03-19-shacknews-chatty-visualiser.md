@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/shacknews-chatty-visualiser/60/
 categories:
-  - Uncategorized
+  - blog
 ---
 I took CMPS161 this quarter, a class about data visualisation. In addition to several lab projects we had a quarter-long personal project, which was essentially to take some data and visualise it in an interesting way to gain some kind of insight to the data.
 

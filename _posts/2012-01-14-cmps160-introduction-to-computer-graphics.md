@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/cmps160-introduction-to-computer-graphics/38/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - class
   - opengl

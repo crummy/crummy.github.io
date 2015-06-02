@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/the-master/126/
 categories:
-  - Uncategorized
+  - blog
 ---
 I managed to convince half a dozen friends to see The Master with me over the weekend. I knew it was reviewing well, it was a Paul Thomas Anderson film, and it apparently included some kind of critique of Scientology, so I decided I wanted to see it. I also avoided trailers and previews to try to go in with as few expectations as possible - though, considering I ended up bringing friends with the promise of 'this movie is supposed to be great,' perhaps this wasn't such a good idea.
 

@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/telltale-games-the-walking-dead/102/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![The Walking Dead](/assets/2012-08-05_00001.jpg)
 

@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/hotline-miami-like-a-psychedlic-hangover/136/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Hotline Miami logo small](/assets/Hotline-Miami-Logo-Small.png)
 

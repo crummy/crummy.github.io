@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/self-balancing-multiplayer/35/
 categories:
-  - Uncategorized
+  - blog
 ---
 Lately I've been playing some games that aren't video games and it occurred to me how some self-balance in a very useful way, allowing experts and newbies to mutually enjoy a game.
 

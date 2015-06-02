@@ -92,11 +92,54 @@ h1 a {
   z-index: 1;
   flex: 2;
   display: flex;
-  max-width: 960px;
-  padding: 1em;
-  margin: -4px auto;
+  width: 960px;
+  margin: 16px auto;
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
+}
+.post p {
+  margin-right: 1em;
+}
+.project {
+  position: relative;
+  z-index: 1;
+  width: 960px;
+  margin: 16px auto;
+  background-color: $lightest-primary-color;
+  box-shadow: 0 0 0.1em $primary-text;
+}
+.project .title {
+  background-color: $dark-primary-color;
+  padding: 0.3em;
+  color: $lightest-primary-color;
+  padding-left: 27%;
+}
+.project .tag {
+  background-color: $light-primary-color;
+  padding: 4px;
+  border-radius: 4px;
+}
+.project .screenshot {
+  height: 150px;
+  width: 200px;
+  overflow: hidden;
+}
+.project .screenshot img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+.project .container {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+.project .screenshot {
+  flex: 1;
+}
+.project .description {
+  padding-left: 1em;
+  flex: 3;
 }
 .content iframe, .content img {
   margin: 0 auto;
@@ -124,12 +167,16 @@ h1 a {
   box-shadow: 0 0 0.1em $primary-text; 
   padding: 0.4em;
 }
-.title {
+.post .title {
   flex: 1  0;
   text-align: right;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
-h2 {
+.post h2 {
+  margin: 0.5em 0 0 0;
+}
+.project h2 {
   margin: 0;
 }
 .content {

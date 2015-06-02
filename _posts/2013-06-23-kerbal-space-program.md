@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/kerbal-space-program/148/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![I went to the moon on this rocket!](/assets/913893_790414143574_1703587575_o1.jpg)
 

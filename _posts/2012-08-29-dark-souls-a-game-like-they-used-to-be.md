@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/dark-souls-a-game-like-they-used-to-be/111/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Dark Souls](/assets/2012-08-24_00001.jpg)
   

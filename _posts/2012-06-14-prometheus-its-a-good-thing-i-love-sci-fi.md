@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/prometheus-its-a-good-thing-i-love-sci-fi/87/
 categories:
-  - Uncategorized
+  - blog
 ---
 I was pretty darned excited for Prometheus when I heard about it. Another Alien-ish movie from Ridley Scott? Sign me up. I always struggle a bit with movies like this: I want to know about it and see the trailer and get excited but I also want to avoid knowledge of the film so I can go in as free of expectations as possible. 
 

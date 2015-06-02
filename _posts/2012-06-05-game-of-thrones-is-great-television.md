@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/game-of-thrones-is-great-television/86/
 categories:
-  - Uncategorized
+  - blog
 ---
 It's really easy to dismiss television at crass lowest-common-denominator content. Usually this belief arises from turning on your television at nearly any given time, but that's like typing in random web addresses to see what's on the internet. Despite being raised on (by?) The Simpsons I never watched a lot of television shows until getting enticed by Battlestar Galactica, then Lost, The Wire, and now Game of Thrones.
 

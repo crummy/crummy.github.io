@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/the-international-2/118/
 categories:
-  - Uncategorized
+  - blog
 ---
 An excellent thing happened at PAX this year: Valve's second annual Dota 2 tournament, The International. Hosted just a few blocks away from my hotel, and with free entry for PAX attendees, it was easy to attend and I'm very glad I did. I'd seen the odd camera-pan-over-the-crowd from online broadcasts Starcraft 2 tournaments and thought to myself, boy, those people are serious nerds. However, it didn't take long in the crowd before I was cheering at the top of my lungs with the crowd.
 

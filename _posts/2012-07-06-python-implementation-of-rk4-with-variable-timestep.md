@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/python-implementation-of-rk4-with-variable-timestep/94/
 categories:
-  - Uncategorized
+  - blog
 ---
 In previous dabbles with physics in video games I discovered that simply adding velocity to position each frame sometimes ran into issues with certain simulations, like a rope or force-based graph. The [helpful crew at Stack Exchange][1] explained why this was so and pointed me to some better solutions.
 

@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/connect-4-in-python/89/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Connect 4](/assets/connect4.png)
 

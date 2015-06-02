@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/spec-ops-the-line-is-an-important-game/95/
 categories:
-  - Uncategorized
+  - blog
 ---
 After being briefly interested in Spec Ops: The Line thanks to its unusual setting in desert-reclaimed Dubai I promptly forgot about it until strong recommendations started popping up on Twitter.
 

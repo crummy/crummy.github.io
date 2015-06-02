@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/a-love-letter-to-uc-santa-cruz/57/
 categories:
-  - Uncategorized
+  - blog
 ---
 
  ![Walking up Science Hill with the sun behind](/assets/ucsc.jpg)

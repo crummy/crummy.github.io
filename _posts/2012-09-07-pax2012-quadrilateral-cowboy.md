@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/pax2012-quadrilateral-cowboy/116/
 categories:
-  - Uncategorized
+  - blog
 ---
 I spent a large amount of time wandering the indie game section of PAX, checking out the widely varied games and chatting to developers. One that especially caught my eye was Brendon Chung's new title, [Quadrilateral Cowboy][1]. I'd heard about it via the Idle Thumbs panel earlier that day, and had played a couple of his previous titles; [Atom Zombie Smasher][2] and [Thirty Flights of Loving][3] most recently, so I was eager to play, and was not disappointed.
 

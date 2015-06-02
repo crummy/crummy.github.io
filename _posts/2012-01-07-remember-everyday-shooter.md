@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/remember-everyday-shooter/37/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Everyday Shooter](/assets/everyday.png)
 

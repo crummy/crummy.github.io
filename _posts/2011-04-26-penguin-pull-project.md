@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/penguin-pull-project/26/
 categories:
-  - Uncategorized
+  - blog
 tags:
   - coding
   - penguinpull

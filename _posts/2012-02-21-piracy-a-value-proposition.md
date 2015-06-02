@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/piracy-a-value-proposition/46/
 categories:
-  - Uncategorized
+  - blog
 ---
 When a consumer desires digital content, they have two choices available: pirating or purchasing it. People may never consider one of these options, or they may not even realise that they have an option at all, but I'm talking about your common internet-literate digital consumer.
 

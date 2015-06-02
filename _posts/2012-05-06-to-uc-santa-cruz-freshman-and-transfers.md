@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/to-uc-santa-cruz-freshman-and-transfers/74/
 categories:
-  - Uncategorized
+  - blog
 ---
 I signed up for the COMET program at school that connects existing transfers to potential transfers, so students interested in UCSC can talk to someone that's currently attending in their major. A couple of friends are attending, too so I thought I'd put down my advice on how to make the most of university here.
 

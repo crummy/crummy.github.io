@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/medusa-in-mexico/81/
 categories:
-  - Uncategorized
+  - blog
 ---
 ![Under sail](/assets/medusa2.jpg)
 

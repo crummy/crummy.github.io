@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/sierra-tramping-trip-to-iva-belle-hot-springs-and-duck-lake/151/
 categories:
-  - Uncategorized
+  - blog
 ---
 Last week I went on a bit of a road trip of California, starting with a three day hike through the Sierras. My friend Janet and I had a little experience with odd hikes as kids but it'd been a fair while since we'd done any long treks, especially overnight, so oddly we decided to do a somewhat strenuous 30 mile hike over the course of three days. My dad had recommended it as one of his favourite hikes in the Mammoth area, and he'd mentioned something about hot springs, so we were sold.
 

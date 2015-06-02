@@ -4,7 +4,7 @@ author: Malcolm
 layout: post
 permalink: wp/dance-dance-revolution-still-awesome/47/
 categories:
-  - Uncategorized
+  - blog
 ---
 
 ![Dan and Blaise throw down](/assets/dan.jpg)
