@@ -13,7 +13,12 @@
       <h1><a href="/">Malcolm Crum</a></h1>
       <ul>
         <li><a href="/index.html#aboutme">About Me</a></li>
-        <li><a href="/index.html#latestpost">Blog</a></li>
+        {% for post in site.posts %}
+          {% if post.categories contains 'blog' %}
+            <li><a href="{{ post.url }}">Blog</a></li>
+            {% break %}
+          {% endif %}
+        {% endfor %}
         <li><a href="/projects.html">Projects</a></li>
       </ul>
       <svg id="svgHeader"></svg>
