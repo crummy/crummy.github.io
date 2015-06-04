@@ -4,7 +4,7 @@
 /* http://www.materialpalette.com/blue/grey */
 $accent-color: #9E9E9E;
 $light-primary-color: #BBDEFB;
-$lightest-primary-color: #e2e2e2;
+$lightest-primary-color: #f2f2f2;
 $dark-primary-color: #1976D2;
 $primary-color: #2196F3;
 $primary-text: #212121;
@@ -87,20 +87,11 @@ h1 a {
   display: flex;
   align-items: center;
 }
-.post {
-  position: relative;
-  z-index: 1;
-  flex: 2;
-  display: flex;
-  width: 960px;
-  margin: 16px auto;
-  background-color: $lightest-primary-color;
-  box-shadow: 0 0 0.1em $primary-text;
-}
 .post p {
   margin-right: 1em;
+  margin-top: 0;
 }
-.project {
+.project, .post {
   position: relative;
   z-index: 1;
   width: 960px;
@@ -108,11 +99,12 @@ h1 a {
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
 }
-.project .title {
-  background-color: $dark-primary-color;
-  padding: 0.3em;
-  color: $lightest-primary-color;
-  padding-left: 27%;
+.title {
+  border-top: 8px solid $dark-primary-color;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5em;
 }
 .project .tag {
   background-color: $light-primary-color;
@@ -129,16 +121,36 @@ h1 a {
   max-width: 100%;
   margin: auto;
 }
-.project .container {
+.project .container, .post .container {
   display: flex;
   flex-direction: row;
-  padding: 1em;
+  padding-bottom: 0.5em;
 }
-.project .screenshot {
+.project .screenshot, .post .date, .left {
   flex: 1;
+  text-align: right;
+  margin: 0;
 }
-.project .description {
-  padding-left: 1em;
+.left, .right {
+  margin: 0;
+  padding: 0;
+}
+.left {
+  color: $light-primary-color;
+  font-style: italic;
+  padding-top: 5px;
+  font-weight: inherit;
+}
+.right {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+h2 a, h2 a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.project .description, .post .content, .right {
+  padding-left: 16px;
   flex: 3;
 }
 .content iframe, .content img {
@@ -166,18 +178,6 @@ h1 a {
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text; 
   padding: 0.4em;
-}
-.post .title {
-  flex: 1  0;
-  text-align: right;
-  padding-right: 1em;
-  padding-left: 1em;
-}
-.post h2 {
-  margin: 0.5em 0 0 0;
-}
-.project h2 {
-  margin: 0;
 }
 .content {
   flex: 3 0 0 ;

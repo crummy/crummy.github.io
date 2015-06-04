@@ -7,7 +7,13 @@ layout: default
   {% for post in site.posts %}
     {% if post.categories contains 'project' %}
       <div class="project">
-        <h2 class="title">{{ post.title }}</h2>
+        <a name="{{ post.title }}"></a>
+        
+        <div class="title">
+          <div class="left"></div>
+          <h2 class="right">{{ post.title }}</h2>
+        </div>
+        
         <div class="container">
           <div class="screenshot">{% if post.screenshot %}<img src="{{ post.screenshot }}">{% endif %}</div>
           <div class="description">
@@ -17,6 +23,7 @@ layout: default
               {{ post.content }}
           </div>
         </div>
+        
       </div>
     {% endif %}
   {% endfor %}

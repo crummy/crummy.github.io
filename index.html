@@ -12,20 +12,18 @@ layout: default
 
 {% for post in site.posts %}
   {% if post.categories contains 'blog' %}
-    <div class="latest-blog">
-      <div class="post">
-        <div class="title">
-          {% if page.title %}
-            <h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
-            {% if page.date %}<div class="date">{{ page.date | date_to_string }}</div>{% endif %}
-          {% endif %}
-          {% if post.title %}
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {% if post.date %}<div class="date">{{ post.date | date_to_string }}</div>{% endif %}
-          {% endif %}
-        </div>
+    <div class="post">
+      <div class="title">
+        <h4 class="left">Latest Blog Post</h4>
+        <h2 class="right"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </div>
+      <div class="container">
+        <div class="date">{{ post.date | date_to_string }}</div>
         <div class="content">
-          {{ post.content }}
+          {{ post.excerpt }}
+          <div class="more">
+            <a href="{{ post.url }}">Read More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +34,10 @@ layout: default
 {% for post in site.posts %}
   {% if post.categories contains 'project' %}
     <div class="project">
-      <h2 class="title">Latest project: {{ post.title }}</h2>
+      <div class="title">
+        <h4 class="left">Latest Project</h4>
+        <h2 class="right"><a href="/projects.html#{{ post.title}}">{{ post.title }}</a></h2>
+      </div>
       <div class="container">
         <div class="screenshot">{% if post.screenshot %}<img src="{{ post.screenshot }}">{% endif %}</div>
         <div class="description">
