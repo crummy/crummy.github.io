@@ -6,8 +6,7 @@ layout: default
   
   {% for post in site.posts %}
     {% if post.categories contains 'project' %}
-      <div class="project">
-        <a name="{{ post.title }}"></a>
+      <div class="project" id="{{ post.title }}">
         
         <div class="title">
           <div class="left"></div>
