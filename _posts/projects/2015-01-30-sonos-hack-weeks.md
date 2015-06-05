@@ -7,6 +7,7 @@ tags:
 - iOS
 - Javascript
 - Ruby
+- SOAP
 - 2012
 - 2013
 - 2014
