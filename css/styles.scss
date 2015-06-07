@@ -88,7 +88,7 @@ nav {
   font-size: 1.5em;
   position: relative;
   top: -4px;
-  height: 200px;
+  min-height: 200px;
   box-shadow: inset 0 -0.5em 0.5em -0.5em $primary-text;
 }
 #aboutme img {
@@ -98,7 +98,6 @@ nav {
 }
 #aboutme div {
   margin: auto;
-  max-width: $desktop-content-width;
   display: flex;
   align-items: center;
 }
@@ -109,7 +108,6 @@ nav {
 .project, .post {
   position: relative;
   z-index: 1;
-  width: $desktop-content-width;
   margin: 16px auto;
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
@@ -170,7 +168,6 @@ h2 a, h2 a:visited {
 }
 .blognavigation {
   background-color: $primary-color;
-  max-width: $desktop-content-width;
   display: flex;
   margin: 0 auto;
 }
@@ -191,7 +188,6 @@ h2 a, h2 a:visited {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: $desktop-content-width;
 }
 #recentBlogPosts .title {
   padding: 0 0.5em 0 0.5em;
@@ -200,13 +196,12 @@ h2 a, h2 a:visited {
   margin: 1em;
 }
 #recentBlogPosts .post:first-child {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 #recentBlogPosts .post:last-child {
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 h3 {
-  width: $desktop-content-width;
   margin: auto;
   padding-top: 2em;
 }
@@ -220,9 +215,44 @@ footer {
 }
 footer .credits {
   text-align: right;
-  width: $desktop-footer-width;
   margin-right: auto;
 }
 footer a, footer a:visited {
   color: $text-icons;
+}
+@media (min-width: $desktop-content-width) {
+  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+    width: $desktop-content-width; 
+  }
+  footer .credits {
+    width: $desktop-footer-width; 
+  }
+  .blognavigation, #aboutme div, .post container, .project container {
+    flex-direction: row;
+  }
+}
+@media (max-width: $desktop-content-width) {
+  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+    width: 100%;
+  }
+  footer .credits {
+    width: 80%;
+  }
+  #recentBlogPosts, .blognavigation, #aboutme div, .post .container, .project .container {
+    flex-direction: column;
+  }
+  .left {
+    display: none; 
+  }
+  #recentBlogPosts .post {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .project .screenshot {
+    max-width: 100%; 
+    height: inherit;
+    max-height: 200px;
+    margin: auto;
+    padding-bottom: 1em;
+  }
 }
