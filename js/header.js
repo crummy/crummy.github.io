@@ -35,7 +35,10 @@ function initHeader() {
         document.body.className = "";
       }
       if (scrollAmount > 260 && scrollAmount < 400) {
-        document.getElementById("aboutme").style.top = -4 - (scrollAmount - 260) + "px";
+        var transformAmount = scrollAmount - 260;
+        document.getElementById("aboutme").style.transform = "translateY(-" + transformAmount + "px)";
+      } else if (scrollAmount < 260) {
+        document.getElementById("aboutme").style.transform = ""; 
       }
       lastScrollAmount = window.scrollY;
     });
