@@ -2,7 +2,7 @@
 title: God Hand and difficulty
 author: Malcolm
 layout: post
-permalink: wp/god-hand-and-difficulty/43/
+redirect_from: wp/god-hand-and-difficulty/43/
 categories:
   - blog
 ---

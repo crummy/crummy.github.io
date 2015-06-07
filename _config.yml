@@ -1,2 +1,4 @@
 title: Malcolm Crum
 description: Personal website of Malcolm Crum, a guy who makes stuff on computers
+gems:
+ - jekyll_redirect_from

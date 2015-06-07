@@ -2,7 +2,7 @@
 title: Slender is pure horror
 author: Malcolm
 layout: post
-permalink: wp/slender-is-pure-horror/98/
+redirect_from: wp/slender-is-pure-horror/98/
 categories:
   - blog
 ---

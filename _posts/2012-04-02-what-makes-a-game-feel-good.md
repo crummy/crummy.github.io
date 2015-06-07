@@ -2,7 +2,7 @@
 title: What makes a game feel good?
 author: Malcolm
 layout: post
-permalink: wp/what-makes-a-game-feel-good/36/
+redirect_from: wp/what-makes-a-game-feel-good/36/
 categories:
   - blog
 ---

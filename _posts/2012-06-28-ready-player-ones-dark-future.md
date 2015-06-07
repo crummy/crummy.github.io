@@ -2,7 +2,7 @@
 title: Ready Player One's dark future
 author: Malcolm
 layout: post
-permalink: wp/ready-player-ones-dark-future/90/
+redirect_from: wp/ready-player-ones-dark-future/90/
 categories:
   - blog
 tags:

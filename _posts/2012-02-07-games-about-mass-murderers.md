@@ -2,7 +2,7 @@
 title: Games about mass-murderers
 author: Malcolm
 layout: post
-permalink: wp/games-about-mass-murderers/44/
+redirect_from: wp/games-about-mass-murderers/44/
 categories:
   - blog
 tags:

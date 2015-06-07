@@ -2,7 +2,7 @@
 title: 'Day Z: Zombie Simulator Extraordinaire'
 author: Malcolm
 layout: post
-permalink: wp/day-z-zombie-simulator-extraordinaire/78/
+redirect_from: wp/day-z-zombie-simulator-extraordinaire/78/
 categories:
   - blog
 ---

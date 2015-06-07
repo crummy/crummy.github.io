@@ -2,7 +2,7 @@
 title: The joy of movement
 author: Malcolm
 layout: post
-permalink: wp/the-joy-of-movement/105/
+redirect_from: wp/the-joy-of-movement/105/
 categories:
   - blog
 ---

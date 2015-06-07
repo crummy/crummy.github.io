@@ -2,7 +2,7 @@
 title: Dangerous games
 author: Malcolm
 layout: post
-permalink: wp/dangerous-games/108/
+redirect_from: wp/dangerous-games/108/
 categories:
   - blog
 ---

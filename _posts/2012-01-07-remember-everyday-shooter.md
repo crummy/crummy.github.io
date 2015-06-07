@@ -2,7 +2,7 @@
 title: Remember Everyday Shooter?
 author: Malcolm
 layout: post
-permalink: wp/remember-everyday-shooter/37/
+redirect_from: wp/remember-everyday-shooter/37/
 categories:
   - blog
 ---

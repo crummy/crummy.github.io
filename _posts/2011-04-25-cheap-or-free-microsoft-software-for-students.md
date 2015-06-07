@@ -2,7 +2,7 @@
 title: Cheap or free Microsoft software for students
 author: Malcolm
 layout: post
-permalink: wp/cheap-or-free-microsoft-software-for-students/27/
+redirect_from: wp/cheap-or-free-microsoft-software-for-students/27/
 categories:
   - blog
 ---

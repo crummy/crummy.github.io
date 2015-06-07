@@ -2,7 +2,7 @@
 title: 'Indie Game: The Movie'
 author: Malcolm
 layout: post
-permalink: wp/indie-game-the-movie/52/
+redirect_from: wp/indie-game-the-movie/52/
 categories:
   - blog
 ---

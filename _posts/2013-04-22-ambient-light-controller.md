@@ -2,7 +2,7 @@
 title: Ambient light controller
 author: Malcolm
 layout: post
-permalink: wp/ambient-light-controller/145/
+redirect_from: wp/ambient-light-controller/145/
 categories:
   - blog
 ---

@@ -2,7 +2,7 @@
 title: Diablo III meets expectations
 author: Malcolm
 layout: post
-permalink: wp/diablo-iii-meets-expectations/80/
+redirect_from: wp/diablo-iii-meets-expectations/80/
 categories:
   - games
 ---

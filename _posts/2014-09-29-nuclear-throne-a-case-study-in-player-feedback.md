@@ -2,7 +2,7 @@
 title: 'Nuclear Throne: a case study in player feedback'
 author: Malcolm
 layout: post
-permalink: wp/nuclear-throne-a-case-study-in-player-feedback/165/
+redirect_from: wp/nuclear-throne-a-case-study-in-player-feedback/165/
 categories:
   - blog
 ---

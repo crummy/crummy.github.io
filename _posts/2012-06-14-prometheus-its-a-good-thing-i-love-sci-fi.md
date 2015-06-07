@@ -2,7 +2,7 @@
 title: Prometheus - It's a good thing I love sci fi
 author: Malcolm
 layout: post
-permalink: wp/prometheus-its-a-good-thing-i-love-sci-fi/87/
+redirect_from: wp/prometheus-its-a-good-thing-i-love-sci-fi/87/
 categories:
   - blog
 ---

@@ -2,7 +2,7 @@
 title: Connect 4 in Python
 author: Malcolm
 layout: post
-permalink: wp/connect-4-in-python/89/
+redirect_from: wp/connect-4-in-python/89/
 categories:
   - blog
 ---

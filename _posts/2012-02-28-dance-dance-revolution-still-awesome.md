@@ -2,7 +2,7 @@
 title: 'Dance Dance Revolution: STILL AWESOME.'
 author: Malcolm
 layout: post
-permalink: wp/dance-dance-revolution-still-awesome/47/
+redirect_from: wp/dance-dance-revolution-still-awesome/47/
 categories:
   - blog
 ---

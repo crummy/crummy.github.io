@@ -2,7 +2,7 @@
 title: Increasing WordPress max upload size on Dreamhost
 author: Malcolm
 layout: post
-permalink: wp/increasing-wordpress-max-upload-size-on-dreamhost/12/
+redirect_from: wp/increasing-wordpress-max-upload-size-on-dreamhost/12/
 categories:
   - blog
 tags:

@@ -2,7 +2,7 @@
 title: 'CMPS160 - Introduction to Computer Graphics'
 author: Malcolm
 layout: post
-permalink: wp/cmps160-introduction-to-computer-graphics/38/
+redirect_from: wp/cmps160-introduction-to-computer-graphics/38/
 categories:
   - blog
 tags:

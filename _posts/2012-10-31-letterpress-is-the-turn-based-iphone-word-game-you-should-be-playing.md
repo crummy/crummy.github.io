@@ -2,7 +2,7 @@
 title: Letterpress is the turn based iPhone word game you should be playing
 author: Malcolm
 layout: post
-permalink: wp/letterpress-is-the-turn-based-iphone-word-game-you-should-be-playing/130/
+redirect_from: wp/letterpress-is-the-turn-based-iphone-word-game-you-should-be-playing/130/
 categories:
   - blog
 ---

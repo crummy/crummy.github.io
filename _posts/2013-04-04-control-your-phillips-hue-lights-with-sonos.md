@@ -2,7 +2,7 @@
 title: Control your Phillips Hue lights with Sonos
 author: Malcolm
 layout: post
-permalink: wp/control-your-phillips-hue-lights-with-sonos/139/
+redirect_from: wp/control-your-phillips-hue-lights-with-sonos/139/
 categories:
   - blog
 ---

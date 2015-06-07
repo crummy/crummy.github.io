@@ -2,7 +2,7 @@
 title: Walk a mile in another man's eyes
 author: Malcolm
 layout: post
-permalink: wp/walk-a-mile-in-another-mans-eyes/100/
+redirect_from: wp/walk-a-mile-in-another-mans-eyes/100/
 categories:
   - blog
 ---

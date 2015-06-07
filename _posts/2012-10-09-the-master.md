@@ -2,7 +2,7 @@
 title: The Master
 author: Malcolm
 layout: post
-permalink: wp/the-master/126/
+redirect_from: wp/the-master/126/
 categories:
   - blog
 ---

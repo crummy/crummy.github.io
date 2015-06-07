@@ -2,7 +2,7 @@
 title: Coding on Unix via Windows with Notepad++ and Putty
 author: Malcolm
 layout: post
-permalink: wp/coding-on-unix-via-windows-with-notepad-and-putty/14/
+redirect_from: wp/coding-on-unix-via-windows-with-notepad-and-putty/14/
 categories:
   - blog
 tags:

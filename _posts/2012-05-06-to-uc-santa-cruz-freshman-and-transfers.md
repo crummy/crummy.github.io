@@ -2,7 +2,7 @@
 title: To UC Santa Cruz freshmen and transfers
 author: Malcolm
 layout: post
-permalink: wp/to-uc-santa-cruz-freshman-and-transfers/74/
+redirect_from: wp/to-uc-santa-cruz-freshman-and-transfers/74/
 categories:
   - blog
 ---

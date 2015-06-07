@@ -2,7 +2,7 @@
 title: Python implementation of RK4 with variable timestep
 author: Malcolm
 layout: post
-permalink: wp/python-implementation-of-rk4-with-variable-timestep/94/
+redirect_from: wp/python-implementation-of-rk4-with-variable-timestep/94/
 categories:
   - blog
 ---

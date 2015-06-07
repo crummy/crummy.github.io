@@ -2,7 +2,7 @@
 title: 'Hotline Miami: Like a psychedelic hangover'
 author: Malcolm
 layout: post
-permalink: wp/hotline-miami-like-a-psychedlic-hangover/136/
+redirect_from: wp/hotline-miami-like-a-psychedlic-hangover/136/
 categories:
   - blog
 ---

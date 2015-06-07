@@ -2,7 +2,7 @@
 title: Splitwise your bills and friends
 author: Malcolm
 layout: post
-permalink: wp/splitwise-your-bills-and-friends/128/
+redirect_from: wp/splitwise-your-bills-and-friends/128/
 categories:
   - blog
 ---

@@ -2,7 +2,7 @@
 title: Dota 2 is complex
 author: Malcolm
 layout: post
-permalink: wp/dota-2-is-complex/48/
+redirect_from: wp/dota-2-is-complex/48/
 categories:
   - blog
 ---

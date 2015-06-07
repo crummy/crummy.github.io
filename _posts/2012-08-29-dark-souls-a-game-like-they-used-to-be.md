@@ -2,7 +2,7 @@
 title: 'Dark Souls: a game like they used to be'
 author: Malcolm
 layout: post
-permalink: wp/dark-souls-a-game-like-they-used-to-be/111/
+redirect_from: wp/dark-souls-a-game-like-they-used-to-be/111/
 categories:
   - blog
 ---

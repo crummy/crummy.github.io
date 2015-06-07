@@ -2,7 +2,7 @@
 title: Softening the blow of losing
 author: Malcolm
 layout: post
-permalink: wp/softening-the-blow-of-losing/54/
+redirect_from: wp/softening-the-blow-of-losing/54/
 categories:
   - blog
 ---

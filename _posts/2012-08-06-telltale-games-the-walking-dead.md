@@ -2,7 +2,7 @@
 title: Telltale Games' The Walking Dead
 author: Malcolm
 layout: post
-permalink: wp/telltale-games-the-walking-dead/102/
+redirect_from: wp/telltale-games-the-walking-dead/102/
 categories:
   - blog
 ---

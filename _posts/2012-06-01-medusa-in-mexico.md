@@ -2,7 +2,7 @@
 title: Medusa in Mexico
 author: Malcolm
 layout: post
-permalink: wp/medusa-in-mexico/81/
+redirect_from: wp/medusa-in-mexico/81/
 categories:
   - blog
 ---

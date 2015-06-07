@@ -2,7 +2,7 @@
 title: A love letter to UC Santa Cruz
 author: Malcolm
 layout: post
-permalink: wp/a-love-letter-to-uc-santa-cruz/57/
+redirect_from: wp/a-love-letter-to-uc-santa-cruz/57/
 categories:
   - blog
 ---

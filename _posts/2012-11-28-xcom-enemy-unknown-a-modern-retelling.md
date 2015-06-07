@@ -2,7 +2,7 @@
 title: 'XCOM: Enemy Unknown, a modern retelling'
 author: Malcolm
 layout: post
-permalink: wp/xcom-enemy-unknown-a-modern-retelling/133/
+redirect_from: wp/xcom-enemy-unknown-a-modern-retelling/133/
 categories:
   - blog
 ---

@@ -2,7 +2,7 @@
 title: 'PAX2012: Quadrilateral Cowboy'
 author: Malcolm
 layout: post
-permalink: wp/pax2012-quadrilateral-cowboy/116/
+redirect_from: wp/pax2012-quadrilateral-cowboy/116/
 categories:
   - blog
 ---

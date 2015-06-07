@@ -2,7 +2,7 @@
 title: Terry Cavanagh's Super Hexagon and VVVVVV
 author: Malcolm
 layout: post
-permalink: wp/terry-cavanaghs-super-hexagon-and-vvvvvv/120/
+redirect_from: wp/terry-cavanaghs-super-hexagon-and-vvvvvv/120/
 categories:
   - blog
 ---

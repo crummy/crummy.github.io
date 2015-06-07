@@ -2,7 +2,7 @@
 title: Kerbal Space Program
 author: Malcolm
 layout: post
-permalink: wp/kerbal-space-program/148/
+redirect_from: wp/kerbal-space-program/148/
 categories:
   - blog
 ---

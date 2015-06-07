@@ -2,7 +2,7 @@
 title: TowerClimb impressions
 author: Malcolm
 layout: post
-permalink: wp/towerclimb-impressions/59/
+redirect_from: wp/towerclimb-impressions/59/
 categories:
   - blog
 ---

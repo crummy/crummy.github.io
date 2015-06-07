@@ -2,7 +2,7 @@
 title: Self-balancing multiplayer
 author: Malcolm
 layout: post
-permalink: wp/self-balancing-multiplayer/35/
+redirect_from: wp/self-balancing-multiplayer/35/
 categories:
   - blog
 ---

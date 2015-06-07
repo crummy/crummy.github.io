@@ -2,7 +2,7 @@
 title: Steam Greenlight and the problem of crowds
 author: Malcolm
 layout: post
-permalink: wp/steam-greenlight-and-the-problem-of-crowds/123/
+redirect_from: wp/steam-greenlight-and-the-problem-of-crowds/123/
 categories:
   - blog
 ---

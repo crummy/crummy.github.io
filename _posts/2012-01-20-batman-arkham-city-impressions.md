@@ -2,7 +2,7 @@
 title: 'Batman: Arkham City impressions'
 author: Malcolm
 layout: post
-permalink: wp/batman-arkham-city-impressions/41/
+redirect_from: wp/batman-arkham-city-impressions/41/
 categories:
   - blog
 ---

@@ -2,7 +2,7 @@
 title: Entertaining vs artistic games
 author: Malcolm
 layout: post
-permalink: wp/entertaining-vs-artistic-games/68/
+redirect_from: wp/entertaining-vs-artistic-games/68/
 categories:
   - games
 ---

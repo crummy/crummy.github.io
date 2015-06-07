@@ -2,7 +2,7 @@
 title: 'Spec Ops: The Line is an important game'
 author: Malcolm
 layout: post
-permalink: wp/spec-ops-the-line-is-an-important-game/95/
+redirect_from: wp/spec-ops-the-line-is-an-important-game/95/
 categories:
   - blog
 ---

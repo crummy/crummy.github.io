@@ -2,7 +2,7 @@
 title: Building a Nuclear Throne _ebooks Bot
 author: Malcolm
 layout: post
-permalink: wp/building-a-nuclear-throne-_ebooks-bot/167/
+redirect_from: wp/building-a-nuclear-throne-_ebooks-bot/167/
 categories:
   - blog
 ---

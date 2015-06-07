@@ -2,7 +2,7 @@
 title: 'Piracy: A value proposition'
 author: Malcolm
 layout: post
-permalink: wp/piracy-a-value-proposition/46/
+redirect_from: wp/piracy-a-value-proposition/46/
 categories:
   - blog
 ---

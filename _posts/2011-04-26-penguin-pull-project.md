@@ -2,7 +2,7 @@
 title: Penguin Pull
 author: Malcolm
 layout: post
-permalink: wp/penguin-pull-project/26/
+redirect_from: wp/penguin-pull-project/26/
 categories:
   - blog
 tags:

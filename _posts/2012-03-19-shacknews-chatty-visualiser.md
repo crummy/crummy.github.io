@@ -2,7 +2,7 @@
 title: Shacknews Chatty Visualiser
 author: Malcolm
 layout: post
-permalink: wp/shacknews-chatty-visualiser/60/
+redirect_from: wp/shacknews-chatty-visualiser/60/
 categories:
   - blog
 ---

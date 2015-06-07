@@ -2,7 +2,7 @@
 title: Battlefield 3 beta impressions - Some flaws, but lots of fun
 author: Malcolm
 layout: post
-permalink: wp/battlefield-3-beta-impressions-flawed-but-fun/31/
+redirect_from: wp/battlefield-3-beta-impressions-flawed-but-fun/31/
 categories:
   - blog
 ---

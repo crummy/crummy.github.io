@@ -2,7 +2,7 @@
 title: Game of Thrones is great television
 author: Malcolm
 layout: post
-permalink: wp/game-of-thrones-is-great-television/86/
+redirect_from: wp/game-of-thrones-is-great-television/86/
 categories:
   - blog
 ---

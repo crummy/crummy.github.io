@@ -2,7 +2,7 @@
 title: Sierra tramping trip to Iva Belle Hot Springs and Duck Lake
 author: Malcolm
 layout: post
-permalink: wp/sierra-tramping-trip-to-iva-belle-hot-springs-and-duck-lake/151/
+redirect_from: wp/sierra-tramping-trip-to-iva-belle-hot-springs-and-duck-lake/151/
 categories:
   - blog
 ---

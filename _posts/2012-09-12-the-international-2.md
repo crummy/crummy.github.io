@@ -2,7 +2,7 @@
 title: The International 2
 author: Malcolm
 layout: post
-permalink: wp/the-international-2/118/
+redirect_from: wp/the-international-2/118/
 categories:
   - blog
 ---
