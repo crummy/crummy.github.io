@@ -37,6 +37,10 @@ header.down {
   top: $header-down-height;
   z-index: 999;
 }
+header {
+  -ms-overflow-y: hidden;
+  -ms-overflow-x: hidden;
+}
 a, a:visited {
   color: $dark-primary-color;
 }
