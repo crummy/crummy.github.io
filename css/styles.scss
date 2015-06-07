@@ -10,6 +10,10 @@ $primary-color: #2196F3;
 $primary-text: #212121;
 $text-icons: #FFFFFF;
 
+$desktop-content-width: 960px;
+$desktop-footer-width: $desktop-content-width - 100px;  
+$header-overflow-height: 20px;
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body {
   margin: 0;
@@ -18,6 +22,17 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Source Sans Pro", sans-serif;
+}
+body.down {
+  position: relative;
+  top: 300px;
+}
+header.down {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: -280px;
+  z-index: 999;
 }
 a, a:visited {
   color: $dark-primary-color;
@@ -31,41 +46,41 @@ a, a:visited {
   background-color: $dark-primary-color;
 }
 h1 {
-  background-color: $accent-color;
-  color: $text-icons;
   position: absolute;
-  right: 0;
-  top: 25px;
+  left: 0;
+  top: -25px;
   font-size: 72px;
   padding: 0.1em;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-  box-shadow: 0 0 0.1em $primary-text;
   z-index: 3;
+  margin-left: 0.25em;
+  text-shadow: 1px 1px $primary-text;
 }
-h1 a {
-  color: inherit;
-}
-#header a {
+h1 a, h1 a:visited {
+  color: $text-icons;
   text-decoration: none;
 }
-#header ul {
-  list-style: none;
+nav {
   position: absolute;
+  top: 277px;
   right: 0;
-  top: 175px;
   z-index: 3;
+  font-size: large;
 }
-#header li {
-  background-color: $accent-color;
-  color: $text-icons;
+#mainNavigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mainNavigation li {
   display: inline;
-  font-size: 2em;
-  padding: 0.1em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  box-shadow: 0 0 0.1em $primary-text;
-  margin-left: 0.2em;
+  padding-right: 2em;
+}
+#mainNavigation a {
+  color: $primary-text;
+  text-shadow: 1px 1px $text-icons;
+  text-decoration: none;
 }
 #aboutme {
   background-color: $accent-color;
@@ -83,7 +98,7 @@ h1 a {
 }
 #aboutme div {
   margin: auto;
-  max-width: 960px;
+  max-width: $desktop-content-width;
   display: flex;
   align-items: center;
 }
@@ -94,7 +109,7 @@ h1 a {
 .project, .post {
   position: relative;
   z-index: 1;
-  width: 960px;
+  width: $desktop-content-width;
   margin: 16px auto;
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
@@ -136,12 +151,6 @@ h1 a {
   margin: 0;
   padding: 0;
 }
-.left {
-  color: $light-primary-color;
-  font-style: italic;
-  padding-top: 12px;
-  font-weight: inherit;
-}
 .right {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -159,43 +168,61 @@ h2 a, h2 a:visited {
   display: block;
   max-width: 100%;
 }
-.postfooter {
-  position: relative;
-  z-index: 0;
-  top: 0.1em;
-}
-.navigation {
-  max-width: 960px;
+.blognavigation {
+  background-color: $primary-color;
+  max-width: $desktop-content-width;
   display: flex;
   margin: 0 auto;
 }
+.blognavigation a {
+  color: $primary-text;
+}
 .prev, .next {
   flex: 1;
+  padding: 0.5em;
 }
 .next {
   text-align: right;
 }
-.navigation a {
-  background-color: $lightest-primary-color;
-  box-shadow: 0 0 0.1em $primary-text; 
-  padding: 0.4em;
-}
 .content {
   flex: 3 0 0 ;
 }
-#footer {
+#recentBlogPosts {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: $desktop-content-width;
+}
+#recentBlogPosts .title {
+  padding: 0 0.5em 0 0.5em;
+}
+#recentBlogPosts .post {
+  margin: 1em;
+}
+#recentBlogPosts .post:first-child {
+  margin-left: 0 !important;
+}
+#recentBlogPosts .post:last-child {
+  margin-right: 0 !important;
+}
+h3 {
+  width: $desktop-content-width;
+  margin: auto;
+  padding-top: 2em;
+}
+footer {
   background-color: $dark-primary-color;
   color: $text-icons;
   margin-top: 2em;
-  padding: 1em;
+  padding: 4em;
   box-shadow: inset 0 0.5em 0.5em -0.5em $primary-text;
   font-size: 0.9em;
 }
-#footer div {
+footer .credits {
   text-align: right;
-  width: 960px;
-  margin: 0 auto;
+  width: $desktop-footer-width;
+  margin-right: auto;
 }
-#footer a, #footer a:visited {
+footer a, footer a:visited {
   color: $text-icons;
 }

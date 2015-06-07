@@ -8,6 +8,4 @@ tags:
 screenshot: /assets/draglauncher-prototype.png
 ---
 
-This is what I'm working on right now. It's a gesture based launcher for Android. I wanted to quickly and easily launch applications from the lock screen and was dissatisfied with what was out there. It's currently in a prototype form only.
-
-* [DragLauncher on Github](www.github.com/crummy/draglauncher)
+Currently, immediate access to commonly used apps on Android is not so immediate, so I'm working on a gesture-based lock screen. Easily-memorized gestures help users rapidly select a number of applications directly from the moment they wake their phone. It's currently in a prototype form only, with [development on Github](www.github.com/crummy/draglauncher).

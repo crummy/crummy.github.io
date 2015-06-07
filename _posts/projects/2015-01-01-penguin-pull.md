@@ -5,10 +5,7 @@ categories:
 tags:
 - XNA
 - C#
-- 2011
 screenshot: /assets/penguinpull.png
 ---
 
-A video game created in XNA for a video game class I took. Created by three of us over the course of a semester. I worked on UI programming and the game loop framework.
-
-* ["Penguin Pull Project" blog post](/wp/penguin-pull-project/26/)
+A video game made using XNA for a video game class at UCSC, created by three of us over the course of a semester. I worked primarily on UI programming and the game loop framework, plus some of the artwork. You can read more about it in [a blog post I wrote](/wp/penguin-pull-project/26/).

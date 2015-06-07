@@ -5,48 +5,35 @@ layout: default
 <div id="aboutme">
   <div>
   <img src="assets/me.png" alt="Me, jumping.">
-  Hi, I'm Malcolm. I'm from New Zealand. I build websites and mobile applications. Right now I'm travelling Europe with my girlfriend.
+  Hi, I'm Malcolm. I'm from New Zealand. I build websites and mobile applications. Right now I'm travelling Europe with my girlfriend and working on <a href="#DragLauncher">an Android launcher app.</a>
   </div>
 </div>
 
-{% for post in site.posts %}
-  {% if post.categories contains 'blog' %}
-    <div class="post">
-      <div class="title">
-        <h4 class="left">Latest Blog Post</h4>
-        <h2 class="right"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      </div>
-      <div class="container">
-        <div class="date">{{ post.date | date_to_string }}</div>
-        <div class="content">
-          {{ post.excerpt }}
-          <div class="more">
-            <a href="{{ post.url }}">Read More</a>
+<div id="projects">
+  
+  <h3>RECENT PROJECTS</h3>
+  
+  {% for post in site.posts %}
+    {% if post.categories contains 'project' %}
+      <div class="project" id="{{ post.title }}">
+        
+        <div class="title">
+          <div class="left"></div>
+          <h2 class="right">{{ post.title }}</h2>
+        </div>
+        
+        <div class="container">
+          <div class="screenshot">{% if post.screenshot %}<img src="{{ post.screenshot }}">{% endif %}</div>
+          <div class="description">
+              {% for tag in post.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+              {{ post.content }}
           </div>
         </div>
+        
       </div>
-    </div>
-    {% break %}
-  {% endif %}
-{% endfor %}
+    {% endif %}
+  {% endfor %}
 
-{% for post in site.posts %}
-  {% if post.categories contains 'project' %}
-    <div class="project">
-      <div class="title">
-        <h4 class="left">Latest Project</h4>
-        <h2 class="right"><a href="/projects.html#{{ post.title}}">{{ post.title }}</a></h2>
-      </div>
-      <div class="container">
-        <div class="screenshot">{% if post.screenshot %}<img src="{{ post.screenshot }}">{% endif %}</div>
-        <div class="description">
-            {% for tag in post.tags %}
-              <span class="tag">{{ tag }}</span>
-            {% endfor %}
-            {{ post.content }}
-        </div>
-      </div>
-    </div>
-    {% break %}
-  {% endif %}
-{% endfor %}
+</div>

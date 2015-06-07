@@ -6,9 +6,10 @@ permalink: wp/nuclear-throne-a-case-study-in-player-feedback/165/
 categories:
   - blog
 ---
-<iframe width="420" height="315" src="https://www.youtube.com/embed/xn46bj4r0so" frameborder="0" allowfullscreen></iframe>
 
-Nuclear Throne, an early access retro-styled action game from [Vlambeer ][1], has held my attention since I bought it last week. The randomly generated levels maintain balance, the game is challenging but rarely unfair, and the game looks great, but what is most impressive is the 'juiciness' it provides.
+Nuclear Throne, an early access retro-styled action game from [Vlambeer][1], has held my attention since I bought it last week. The randomly generated levels maintain balance, the game is challenging but rarely unfair, and the game looks great, but what is most impressive is the 'juiciness' it provides.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xn46bj4r0so" frameborder="0" allowfullscreen></iframe>
 
 Juiciness, in games, is usually described as 'the satisfying feeling when potential energy is converted into kinetic energy.' More loosely it's the feedback presented to the user upon input, and it can have a huge impact on the 'feel' of a game, the part that talks to a player's subconscious. Nuclear Throne is at its juiciest, appropriately enough given its action focus, the moment you fire your weapon.
 

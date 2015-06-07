@@ -9,29 +9,49 @@
     <script src="/js/header.js"></script>
   </head>
   <body onload="initHeader();">
-    <div id="header">
+    <header id="header">
       <h1><a href="/">Malcolm Crum</a></h1>
-      <ul>
-        <li><a href="/index.html#aboutme">About Me</a></li>
-        {% for post in site.posts %}
-          {% if post.categories contains 'blog' %}
-            <li><a href="{{ post.url }}">Blog</a></li>
-            {% break %}
-          {% endif %}
-        {% endfor %}
-        <li><a href="/projects.html">Projects</a></li>
-      </ul>
       <svg id="svgHeader"></svg>
-    </div>
+      <nav>
+        <ul id="mainNavigation">
+          <li><a href="/index.html#aboutme">About Me</a></li>
+          <li><a href="/index.html#projects">Projects</a></li>
+          <li><a href="/index.html#recentblogposts">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
     
     {{ content }}
+    
+    <h3>RECENT BLOG POSTS</h3>
+    <div id="recentBlogPosts">
+      {% for category in site.categories %}
+        {% if category contains 'blog' %}
+          {% for posts in category %}
+            {% for post in posts limit:3 %}
+              {% if post.title %}
+                <div class="post">
+                  <div class="title">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                  </div>
+                  <div class="content">
+                    {{ post.excerpt }}
+                    <span class="readmore"><a href="{{ post.url }}">Read More...</a></span>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
 
-    <div id="footer">
-      <div>
-        I made this website.
+    <footer>
+      <div class="credits">
+        I made this website.<br>
         Find me on: <a href="mailto:crummynz@gmail.com">Email</a>, <a href="http://www.twitter.com/crummy">Twitter</a>, <a href="http://www.github.com/crummy">Github</a>
       </div>
-    </div>
+    </footer>
   </body>
   
   <script>

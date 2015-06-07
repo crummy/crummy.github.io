@@ -1,3 +1,4 @@
+
 function initHeader() {
   var angle = 60;
   var snap = Snap("#svgHeader");
@@ -11,12 +12,30 @@ function initHeader() {
   drawBackgroundColumns(snap, 20, width, height * heightMultiplier, angle);
   var foregroundColumns = drawForegroundColumns(snap, 3, width, height * heightMultiplier, angle);
   
-  window.addEventListener("scroll", function(evt) {
-    var scrollAmount = window.scrollY;
-    for (var index = 0; index < 3; ++index) {
-      foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
-    }
-  });
+  if (window.scrollY > 280) {
+    document.getElementById("header").className = "down";
+    document.body.className = "down";
+  }
+  
+  (function () {
+    var lastScrollAmount = window.scrollY;
+    window.addEventListener("scroll", function(evt) {
+      var scrollAmount = window.scrollY;
+      if (scrollAmount < 400) {
+        for (var index = 0; index < 3; ++index) {
+          foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
+        }
+      }
+      if (scrollAmount > 280 && lastScrollAmount < 280) {
+        document.getElementById("header").className = "down";
+        document.body.className = "down";
+      } else if (scrollAmount < 280 && lastScrollAmount > 280) {
+        document.getElementById("header").className = "";
+        document.body.className = "";
+      }
+      lastScrollAmount = window.scrollY;
+    });
+  })();
 }
 
 function drawBackgroundColumns(snap, columnCount, backgroundWidth, backgroundHeight, angle) {

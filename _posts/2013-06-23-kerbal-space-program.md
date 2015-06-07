@@ -6,9 +6,10 @@ permalink: wp/kerbal-space-program/148/
 categories:
   - blog
 ---
-![I went to the moon on this rocket!](/assets/913893_790414143574_1703587575_o1.jpg)
 
 Kerbal Space Program is a) the game NASA should have made long ago and b) something that should be in every classroom. The game centers largely around two modes: build a spaceship out of somewhat realistic parts (rockets, fuel tanks, solar panels, crew pods, etc.), and then attempt to launch your rocket into space, where you can orbit your planet, travel elsewhere, perform a spacewalk or whatever you'd like. The only failure state is crashing (or your rocket exploding from poor design or overheating), and goals are whatever you decide.
+
+![I went to the moon on this rocket!](/assets/913893_790414143574_1703587575_o1.jpg)
 
 This lack of guidance gives a sense of exploration which goes hand-in-hand with the space exploration theme. In such a familiar setting players are bound to see the moon once they reach space and wonder: could I go there? Then: Could I land on it? Could I return once I have? Each successive task seems almost insurmountable at first but with a good ship design and a fair bit of planning, you can go literally anywhere in the solar system, and it is unbelievably rewarding when you finally set down on an alien planet, take a walk around on its surface, and gaze back at the planet from whence you came.
 

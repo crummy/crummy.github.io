@@ -8,14 +8,11 @@ tags:
 - Javascript
 - Ruby
 - SOAP
-- 2012
-- 2013
-- 2014
 ---
 
 Several times a year, Sonos hosted hack weeks where employees could spend time working on any project they could think of, as long as it was Sonos related. 
 
-These are largely unsuitable for public consumption, but a list of the projects I worked on are here:
+The results are largely unsuitable for public consumption, but a list of the projects I worked on are here:
 
 * PA software, to record audio from a computer and broadcast it to a Sonos component
 * Google Music API for Sonos
