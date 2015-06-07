@@ -2,8 +2,8 @@
 function initHeader() {
   var angle = 60;
   var snap = Snap("#svgHeader");
-  var width = document.getElementById("svgHeader").offsetWidth;
-  var height = document.getElementById("svgHeader").offsetHeight;
+  var width = document.getElementById("header").offsetWidth;
+  var height = document.getElementById("header").offsetHeight;
   var heightMultiplier = 1/Math.cos((angle/180) * Math.PI);
   
   var background = snap.rect(0,0, width, height);
