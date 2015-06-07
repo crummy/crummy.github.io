@@ -12,7 +12,10 @@ $text-icons: #FFFFFF;
 
 $desktop-content-width: 960px;
 $desktop-footer-width: $desktop-content-width - 100px;  
-$header-overflow-height: 20px;
+$header-overflow-height: 40px;
+$header-height: 300px;
+$header-down-height: -($header-height - $header-overflow-height);
+$nav-down-height: $header-height - $header-overflow-height;
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body {
@@ -25,13 +28,13 @@ body {
 }
 body.down {
   position: relative;
-  top: 300px;
+  top: $header-height;
 }
 header.down {
   position: fixed;
   left: 0;
   right: 0;
-  top: -280px;
+  top: $header-down-height;
   z-index: 999;
 }
 a, a:visited {
@@ -39,7 +42,7 @@ a, a:visited {
 }
 #svgHeader {
   width: 100%;
-  height: 300px;
+  height: $header-height;
   box-shadow: 0 0.1em 1em $primary-text;
   z-index: 2;
   position: relative;
@@ -63,10 +66,10 @@ h1 a, h1 a:visited {
 }
 nav {
   position: absolute;
-  top: 277px;
+  top: $nav-down-height;
   right: 0;
   z-index: 3;
-  font-size: large;
+  font-size: 1.5em;
 }
 #mainNavigation {
   list-style: none;
@@ -215,7 +218,7 @@ footer {
 }
 footer .credits {
   text-align: right;
-  margin-right: auto;
+  margin: auto;
 }
 footer a, footer a:visited {
   color: $text-icons;

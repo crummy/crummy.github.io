@@ -5,14 +5,14 @@ layout: default
 <div id="aboutme">
   <div>
   <img src="assets/me.png" alt="Me, jumping.">
-  Hi, I'm Malcolm. I'm from New Zealand. I build websites and mobile applications. Right now I'm travelling Europe with my girlfriend and working on <a href="#DragLauncher">an Android launcher app.</a>
+  <p>Hi, I'm Malcolm. I'm from New Zealand. I build websites and mobile applications. Right now I'm travelling Europe with my girlfriend and working on <a href="#DragLauncher">an Android launcher app.</a></p>
   </div>
 </div>
 
 <div id="projects">
   
   <h3>RECENT PROJECTS</h3>
-  
+
   {% for post in site.posts %}
     {% if post.categories contains 'project' %}
       <div class="project" id="{{ post.title }}">
@@ -31,7 +31,6 @@ layout: default
               {{ post.content }}
           </div>
         </div>
-        
       </div>
     {% endif %}
   {% endfor %}

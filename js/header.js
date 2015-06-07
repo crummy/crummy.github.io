@@ -19,19 +19,23 @@ function initHeader() {
   
   (function () {
     var lastScrollAmount = window.scrollY;
+    var initialAboutHeight = document.getElementById("aboutme").offsetHeight;
     window.addEventListener("scroll", function(evt) {
       var scrollAmount = window.scrollY;
-      if (scrollAmount < 400) {
+      if (scrollAmount < 500) {
         for (var index = 0; index < 3; ++index) {
           foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
         }
       }
-      if (scrollAmount > 280 && lastScrollAmount < 280) {
+      if (scrollAmount >= 260 && lastScrollAmount <= 260) {
         document.getElementById("header").className = "down";
         document.body.className = "down";
-      } else if (scrollAmount < 280 && lastScrollAmount > 280) {
+      } else if (scrollAmount < 260 && lastScrollAmount >= 260) {
         document.getElementById("header").className = "";
         document.body.className = "";
+      }
+      if (scrollAmount > 260 && scrollAmount < 400) {
+        document.getElementById("aboutme").style.top = -4 - (scrollAmount - 260) + "px";
       }
       lastScrollAmount = window.scrollY;
     });
