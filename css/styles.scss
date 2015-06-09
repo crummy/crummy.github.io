@@ -95,18 +95,19 @@ nav {
   font-size: 1.5em;
   position: relative;
   top: -4px;
-  min-height: 200px;
+  height: 150px;
   box-shadow: inset 0 -0.5em 0.5em -0.5em $primary-text;
+  overflow: hidden;
 }
 #aboutme img {
   float: left;
   margin-right: 2em;
-  height: 200px;
 }
-#aboutme div {
+#aboutinner {
   margin: auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .post p {
   margin-right: 1em;

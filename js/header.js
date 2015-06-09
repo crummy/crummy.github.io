@@ -1,3 +1,5 @@
+var foregroundColumns;
+var lastScrollAmount;
 
 function initHeader() {
   var angle = 60;
@@ -10,39 +12,37 @@ function initHeader() {
   background.attr({"fill": "#ddd"});
   
   drawBackgroundColumns(snap, 20, width, height * heightMultiplier, angle);
-  var foregroundColumns = drawForegroundColumns(snap, 3, width, height * heightMultiplier, angle);
+  foregroundColumns = drawForegroundColumns(snap, 3, width, height * heightMultiplier, angle);
   
-  if (window.scrollY > 280) {
+  lastScrollAmount = window.scrollY;
+  parallaxEffects();
+  window.addEventListener("scroll", function() {
+    requestAnimationFrame(parallaxEffects);
+  });
+}
+
+function parallaxEffects() {
+  var initialAboutHeight = document.getElementById("aboutme").offsetHeight;
+  var scrollAmount = window.scrollY;
+  if (scrollAmount < 500) {
+    for (var index = 0; index < 3; ++index) {
+      foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
+    }
+  }
+  if (scrollAmount >= 260 && lastScrollAmount <= 260) {
     document.getElementById("header").className = "down";
     document.body.className = "down";
+  } else if (scrollAmount < 260 && lastScrollAmount >= 260) {
+    document.getElementById("header").className = "";
+    document.body.className = "";
   }
-  
-  (function () {
-    var lastScrollAmount = window.scrollY;
-    var initialAboutHeight = document.getElementById("aboutme").offsetHeight;
-    window.addEventListener("scroll", function(evt) {
-      var scrollAmount = window.scrollY;
-      if (scrollAmount < 500) {
-        for (var index = 0; index < 3; ++index) {
-          foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
-        }
-      }
-      if (scrollAmount >= 260 && lastScrollAmount <= 260) {
-        document.getElementById("header").className = "down";
-        document.body.className = "down";
-      } else if (scrollAmount < 260 && lastScrollAmount >= 260) {
-        document.getElementById("header").className = "";
-        document.body.className = "";
-      }
-      if (scrollAmount > 260 && scrollAmount < 400) {
-        var transformAmount = scrollAmount - 260;
-        document.getElementById("aboutme").style.transform = "translateY(-" + transformAmount + "px)";
-      } else if (scrollAmount < 260) {
-        document.getElementById("aboutme").style.transform = ""; 
-      }
-      lastScrollAmount = window.scrollY;
-    });
-  })();
+  if (scrollAmount < 320) {
+    var transformAmount = (scrollAmount)/4;
+    document.getElementById("aboutinner").style.transform = "translateY(-" + transformAmount + "px)";
+  } else if (scrollAmount < 260) {
+    document.getElementById("aboutinner").style.transform = ""; 
+  }
+  lastScrollAmount = scrollAmount;
 }
 
 function drawBackgroundColumns(snap, columnCount, backgroundWidth, backgroundHeight, angle) {
