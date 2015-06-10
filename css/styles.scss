@@ -11,7 +11,8 @@ $primary-text: #212121;
 $text-icons: #FFFFFF;
 
 $desktop-content-width: 960px;
-$desktop-footer-width: $desktop-content-width - 100px;  
+$phone-content-width: 480px;
+$desktop-footer-width: $desktop-content-width - 100px;
 $header-overflow-height: 40px;
 $header-height: 300px;
 $header-down-height: -($header-height - $header-overflow-height);
@@ -95,7 +96,7 @@ nav {
   font-size: 1.5em;
   position: relative;
   top: -4px;
-  height: 150px;
+  min-height: 150px;
   box-shadow: inset 0 -0.5em 0.5em -0.5em $primary-text;
   overflow: hidden;
 }
@@ -227,7 +228,7 @@ footer .credits {
 footer a, footer a:visited {
   color: $text-icons;
 }
-@media (min-width: $desktop-content-width) {
+@media (min-width: $desktop-content-width) { // desktop
   #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
     width: $desktop-content-width; 
   }
@@ -238,7 +239,26 @@ footer a, footer a:visited {
     flex-direction: row;
   }
 }
-@media (max-width: $desktop-content-width) {
+@media (max-width: $desktop-content-width) and (min-width: $phone-content-width) { // tablet
+  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+    width: 100%;
+  }
+  .blognavigation, #aboutme div, .post container, .project container {
+    flex-direction: row;
+  }
+  #recentBlogPosts .post {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  .project .screenshot {
+    max-width: 100%; 
+    height: inherit;
+    max-height: 200px;
+    margin: auto;
+    padding-bottom: 1em;
+  }
+}
+@media (max-width: $phone-content-width) { // phone
   #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
     width: 100%;
   }
