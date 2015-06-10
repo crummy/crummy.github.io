@@ -194,7 +194,7 @@ h2 a, h2 a:visited {
 #recentBlogPosts {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: 0 auto;
 }
 #recentBlogPosts .title {
   padding: 0 0.5em 0 0.5em;
@@ -209,7 +209,7 @@ h2 a, h2 a:visited {
   margin-right: 0;
 }
 h3 {
-  margin: auto;
+  margin: 0 auto;
   padding-top: 2em;
 }
 footer {

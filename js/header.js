@@ -1,6 +1,3 @@
-var foregroundColumns;
-var lastScrollAmount;
-
 function initHeader() {
   var angle = 60;
   var snap = Snap("#svgHeader");
@@ -15,59 +12,49 @@ function initHeader() {
   foregroundColumns = drawForegroundColumns(snap, 3, width, height * heightMultiplier, angle);
   
   lastScrollAmount = window.scrollY;
-  parallaxEffects();
+  stickyHeader();
   window.addEventListener("scroll", function() {
-    requestAnimationFrame(parallaxEffects);
+    requestAnimationFrame(stickyHeader);
   });
   
   skrollr.init();
 }
 
-function parallaxEffects() {
-  var initialAboutHeight = document.getElementById("aboutme").offsetHeight;
+function stickyHeader() {
+  var aboutHeight = document.getElementById("aboutme").offsetHeight;
   var scrollAmount = window.scrollY;
-  if (scrollAmount < 500) {
-    for (var index = 0; index < 3; ++index) {
-      //foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
-    }
-  }
-  if (scrollAmount >= 260 && lastScrollAmount <= 260) {
+  var header = document.getElementById("header");
+  if (scrollAmount >= 260 && header.className == "") {
     document.getElementById("header").className = "down";
     document.body.className = "down";
-  } else if (scrollAmount < 260 && lastScrollAmount >= 260) {
+  } else if (scrollAmount < 260 && header.className == "down") {
     document.getElementById("header").className = "";
     document.body.className = "";
   }
-  lastScrollAmount = scrollAmount;
 }
 
 function drawBackgroundColumns(snap, columnCount, backgroundWidth, backgroundHeight, angle) {
-  var group = []
   for (var index = 0; index < columnCount; ++index) {
     var x = Math.random() * backgroundWidth + 100;
     var width = 64 + Math.random() * 64;
     var split = 32 + Math.random() * 16;
-    var height = backgroundHeight + Math.random() * 200;
+    var height = backgroundHeight * 2 + Math.random() * 200;
     var column = drawColumn(snap, x, -height, height * 2, width, split, 16);
-    column.attr({"transform": "r" + angle});
-    group.push(column);
+    column.attr({"data-0": "transform: rotate(" + angle + "deg) translateY(-" + height + "px)",
+                "data-300": "transform: rotate(" + angle + "deg) translateY(-" + (height - 50) + "px)"});
   }
-  return group;
 }
 
 function drawForegroundColumns(snap, columnCount, backgroundWidth, backgroundHeight, angle) {
-  var group = []
   for (var index = 0; index < columnCount; ++index) {
     var x = backgroundWidth/2 + Math.random() * backgroundWidth/4;
     var width = 64 + Math.random() * 64;
     var split = width*2/3;
-    var height = backgroundHeight/2 + Math.random() * backgroundHeight/4;
+    var height = backgroundHeight + Math.random() * backgroundHeight/4;
     var column = drawColumn(snap, x, -height, height * 2, width, split, 16);
-    column.attr({"transform": "r" + angle});
-    var duration = 15000 + Math.random() * 4000;
-    group.push(column);
+    column.attr({"data-0": "transform: translateX(-" + backgroundWidth/2 + "px) rotate(" + angle + "deg) translateY(-" + height*3 + "px)",
+                 "data-300": "transform: translateX(-" + backgroundWidth/2 + "px) rotate(" + angle + "deg) translateY(-" + height + "px)"});
   }
-  return group;
 }
 
 function drawColumn(snap, x, y, height, width, split, tilt) {
