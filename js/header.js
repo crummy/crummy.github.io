@@ -19,6 +19,8 @@ function initHeader() {
   window.addEventListener("scroll", function() {
     requestAnimationFrame(parallaxEffects);
   });
+  
+  skrollr.init();
 }
 
 function parallaxEffects() {
@@ -26,7 +28,7 @@ function parallaxEffects() {
   var scrollAmount = window.scrollY;
   if (scrollAmount < 500) {
     for (var index = 0; index < 3; ++index) {
-      foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
+      //foregroundColumns[index].attr({"transform": "r60t0," + scrollAmount});
     }
   }
   if (scrollAmount >= 260 && lastScrollAmount <= 260) {
@@ -35,12 +37,6 @@ function parallaxEffects() {
   } else if (scrollAmount < 260 && lastScrollAmount >= 260) {
     document.getElementById("header").className = "";
     document.body.className = "";
-  }
-  if (scrollAmount < 320) {
-    var transformAmount = (scrollAmount)/4;
-    document.getElementById("aboutinner").style.transform = "translateY(-" + transformAmount + "px)";
-  } else if (scrollAmount < 260) {
-    document.getElementById("aboutinner").style.transform = ""; 
   }
   lastScrollAmount = scrollAmount;
 }
