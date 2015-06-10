@@ -38,7 +38,7 @@ function drawBackgroundColumns(snap, columnCount, backgroundWidth, backgroundHei
     var x = Math.random() * backgroundWidth + 100;
     var width = 64 + Math.random() * 64;
     var split = 32 + Math.random() * 16;
-    var height = backgroundHeight * 2 + Math.random() * 200;
+    var height = backgroundHeight * 1.5 + Math.random() * 600;
     var column = drawColumn(snap, x, -height, height * 2, width, split, 16);
     column.attr({"data-0": "transform: rotate(" + angle + "deg) translateY(-" + height + "px)",
                 "data-300": "transform: rotate(" + angle + "deg) translateY(-" + (height - 50) + "px)"});
