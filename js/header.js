@@ -5,10 +5,9 @@ function initHeader() {
   var height = document.getElementById("header").offsetHeight;
   var heightMultiplier = 1/Math.cos((angle/180) * Math.PI);
   
-  var background = snap.rect(0,0, width, height);
-  background.attr({"fill": "#ddd"});
-  
   drawBackgroundColumns(snap, 20, width, height * heightMultiplier, angle);
+  var background = snap.rect(0,0, width, height);
+  background.attr({"fill": "#000", "opacity": "0.2"});
   foregroundColumns = drawForegroundColumns(snap, 3, width, height * heightMultiplier, angle);
   
   lastScrollAmount = window.scrollY;
@@ -21,7 +20,6 @@ function initHeader() {
 }
 
 function stickyHeader() {
-  var aboutHeight = document.getElementById("aboutme").offsetHeight;
   var scrollAmount = window.scrollY;
   var header = document.getElementById("header");
   if (scrollAmount >= 260 && header.className == "") {
