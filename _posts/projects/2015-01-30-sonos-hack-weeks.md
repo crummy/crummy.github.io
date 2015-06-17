@@ -20,3 +20,4 @@ The results are largely unsuitable for public consumption, but a list of the pro
 * Gesture based controller interface mockup for iOS
 * Controller UI colour scheme driven by album art
 * Sonos dashboard showing track info, Jira bugs, Google Analytics data
+* IFTTT to Sonos server

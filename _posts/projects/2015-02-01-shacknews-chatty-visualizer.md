@@ -5,6 +5,7 @@ categories:
 tags:
 - XNA
 - C#
+- JSON API
 screenshot: /assets/xnachatty.png
 ---
 
