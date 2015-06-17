@@ -8,6 +8,7 @@ tags:
 - Javascript
 - Ruby
 - SOAP
+screenshot: /assets/sonos-logo-black.png
 ---
 
 Several times a year, Sonos hosted hack weeks where employees could spend time working on any project they could think of, as long as it was Sonos related. 
