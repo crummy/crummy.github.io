@@ -16,7 +16,7 @@ function initHeader() {
     requestAnimationFrame(stickyHeader);
   });
   
-  skrollr.init();
+  skrollr.init({forceHeight: false});
 }
 
 function stickyHeader() {
