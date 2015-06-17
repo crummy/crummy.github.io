@@ -7,9 +7,9 @@ categories:
   - blog
 ---
 
-![My Sonos Desktop Controller with the reflection of a Hue light](/assets/Photo-Apr-04-12-38-10-AM.jpg)
-
 Once a quarter, we hold an 'Innovation Week' at Sonos, where employees are mostly free to take a break from their regularly assigned work and make something cool that's Sonos related. Sometimes these hacks can make it into future products or software releases, sometimes they are more funny than useful, sometimes they end up not even seeing the light of day (a week isn't a very long time it turns out!). For me it's a great way to put my rusting programming skills to use and learn a thing or two while I'm at it.
+
+![My Sonos Desktop Controller with the reflection of a Hue light](/assets/Photo-Apr-04-12-38-10-AM.jpg)
 
 Last year I'd picked up three of the [Phillips Hue][1] lights and, after discovering they are controllable by a reasonably functional API, figured they'd be perfect for some kind of integration with Sonos. This plan came into action with our latest innovation week, where I used Python to build a fake 'music service' that Sonos could access that, instead of returning music when you pressed play, controlled my light bulbs.
 

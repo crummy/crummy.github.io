@@ -6,9 +6,10 @@ redirect_from: wp/remember-everyday-shooter/37/
 categories:
   - blog
 ---
-![Everyday Shooter](/assets/everyday.png)
 
 I missed the initial excitement for Everyday Shooter, after it was released on Playstation Network, a platform I didn't own a console for. But I'd heard enough about it to remain interested and when it finally saw a Steam release I picked it up on launch.
+
+![Everyday Shooter](/assets/everyday.png)
 
 What I got was a top down shooter that seemed to defy categorization. It required very rapid reflexes (like any good shoot em up) but felt somehow mellow at times. The music produced by the gameplay felt discordant yet still melodious; sound effects play as part of the soundtrack but not necessarily in tempo. And though it has the same basic gameplay mechanics as any other top down shooter, each level has a twist to figure out, which can offer surprising complexity.
 

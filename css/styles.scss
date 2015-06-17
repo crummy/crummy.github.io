@@ -168,7 +168,7 @@ h2 a, h2 a:visited {
   color: inherit;
 }
 .project .description, .post .content, .right {
-  padding-left: 16px;
+  padding: 0 8px 0 8px;
   flex: 3;
 }
 .content iframe, .content img {
@@ -181,7 +181,7 @@ h2 a, h2 a:visited {
   display: flex;
   margin: 0 auto;
 }
-.blognavigation a {
+.blognavigation .post {
   color: $primary-text;
 }
 .prev, .next {
@@ -194,39 +194,36 @@ h2 a, h2 a:visited {
 .content {
   flex: 3 0 0 ;
 }
-#recentBlogPosts {
+#latest {
+  background-color: $accent-color;
+  box-shadow: inset 0 0.5em 0.5em -0.5em $primary-text;
+}
+#blogposts {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
-#recentBlogPosts .title {
+#blogposts .title {
   padding: 0 0.5em 0 0.5em;
 }
-#recentBlogPosts a {
+#blogposts .post {
   margin: 1em;
-  display: inline-flex;
   flex: 1;
-  text-decoration: none;
-  color: $primary-text;
+  cursor: pointer;
+  min-width: 26%;
 }
 .readmore {
-  text-decoration: underline;
-  color:$dark-primary-color;
-}
-#recentBlogPosts a:first-child {
-  margin-left: 0; 
-}
-#recentBlogPosts a:last-child {
-  margin-right: 0;
+  display: block;
+  padding: 0.5em 0 1em 0;
 }
 h3 {
   margin: 0 auto;
-  padding-top: 2em;
+  text-align: center;
 }
 footer {
   background-color: $dark-primary-color;
   color: $text-icons;
-  margin-top: 2em;
   padding: 4em;
   box-shadow: inset 0 0.5em 0.5em -0.5em $primary-text;
   font-size: 0.9em;
@@ -239,7 +236,10 @@ footer a, footer a:visited {
   color: $text-icons;
 }
 @media (min-width: $desktop-content-width) { // desktop
-  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+  #blogposts {
+    width: 100%; 
+  }
+  #aboutme div, .project, .post, .blognavigation {
     width: $desktop-content-width; 
   }
   footer .credits {
@@ -250,13 +250,13 @@ footer a, footer a:visited {
   }
 }
 @media (max-width: $desktop-content-width) and (min-width: $phone-content-width) { // tablet
-  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+  #blogposts, #aboutme div, .project, .post, .blognavigation {
     width: 100%;
   }
   .blognavigation, #aboutme div, .post container, .project container {
     flex-direction: row;
   }
-  #recentBlogPosts .post {
+  #blogposts .post {
     margin-left: 0.25em;
     margin-right: 0.25em;
   }
@@ -269,19 +269,19 @@ footer a, footer a:visited {
   }
 }
 @media (max-width: $phone-content-width) { // phone
-  #recentBlogPosts, h3, #aboutme div, .project, .post, .blognavigation {
+  #blogposts, #aboutme div, .project, .post, .blognavigation {
     width: 100%;
   }
   footer .credits {
     width: 80%;
   }
-  #recentBlogPosts, .blognavigation, #aboutme div, .post .container, .project .container {
+  #blogposts, .blognavigation, #aboutme div, .post .container, .project .container {
     flex-direction: column;
   }
   .left {
     display: none; 
   }
-  #recentBlogPosts a {
+  #blogposts .post {
     margin-left: 0;
     margin-right: 0;
   }

@@ -7,9 +7,9 @@ categories:
   - blog
 ---
 
-![Dan and Blaise throw down](/assets/dan.jpg)
-
 In 2005-ish I went through a serious Dance Dance Revolution phase. My girlfriend, my two cousins, and I had a setup where we progressed through increasingly more expensive pads as we wore out the last ones, hooked up to a computer with a thousand or so songs, connected to an old TV. Many late nights were spent with high pitched J-pop blasting out the playroom windows (had to be open; it gets bloody hot playing just a few songs).
+
+![Dan and Blaise throw down](/assets/dan.jpg)
 
 We eventually wore through the RedOctane pads we had, and ran out of enthusiasm, and I thought that was it for me and DDR, save the odd run in with an arcade machine at a movie theater. But this quarter I discovered one of my flatmates and another friend were big fans, and somehow all abruptly we ended up with a very similar setup to the one I danced on seven years ago, and I feel the draw again. (Yes, I use the term 'dance' loosely.) The physicality and rhythm of DDR is hard to beat, I think.
 

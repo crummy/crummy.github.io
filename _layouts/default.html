@@ -33,35 +33,12 @@
       <nav>
         <ul id="mainNavigation">
           <li><a href="/index.html#projects">Projects</a></li>
-          <li><a href="/index.html#recentBlogPosts">Blog</a></li>
+          <li><a href="/blog.html">Blog</a></li>
         </ul>
       </nav>
     </header>
     
     {{ content }}
-    
-    <h3>RECENT BLOG POSTS</h3>
-    <div id="recentBlogPosts">
-      {% for category in site.categories %}
-        {% if category contains 'blog' %}
-          {% for posts in category %}
-            {% for post in posts limit:3 %}
-              {% if post.title %}
-                <a href="{{ post.url }}"><div class="post">
-                  <div class="title">
-                    <h2>{{ post.title }}</h2>
-                  </div>
-                  <div class="content">
-                    {{ post.excerpt }}
-                    <span class="readmore">Read More...</span>
-                  </div>
-                </div></a>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
 
     <footer>
       <div class="credits">

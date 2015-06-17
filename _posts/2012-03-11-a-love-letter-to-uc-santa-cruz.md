@@ -7,9 +7,9 @@ categories:
   - blog
 ---
 
- ![Walking up Science Hill with the sun behind](/assets/ucsc.jpg)
-
 The day I found out I was going to UCSC was one of the most disappointing days of my life. I had planned for years to go to UCSB, and when they turned me down it meant leaving all my friends, my family, and various other plans for a place I'd never even been to. As move-in day neared I talked to a few friends who had been there who made me feel better, and the campus seemed cool when I visited for orientation, but it was still with a strong sense of trepidation and regret that I packed all my stuff up and left Santa Barbara.
+
+ ![Walking up Science Hill with the sun behind](/assets/ucsc.jpg)
 
 It's funny looking back on that because I feel like I came so close to never coming here. Turns out I had challenging but interesting classes, a beautiful campus, and it wasn't even as cold as I feared. More than anything though, my first year was defined by sixth floor Porter. I felt such a tight knit sense of community with everyone, playing nightly LoL in between eating at/complaining about the dining hall, partying with two buck chuck, going on night hikes, and generally feeling like part of a massive eccentric family.
 

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div id="blogposts">
+  {% for category in site.categories %}
+    {% if category contains 'blog' %}
+      {% for posts in category %}
+        {% for post in posts %}
+          {% if post.title %}
+            <div class="post" onclick="window.location.href = this.getElementsByTagName('a')[0].href;">
+              <div class="title">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              </div>
+              <div class="content">
+                {{ post.excerpt }}
+                <span class="readmore"><a href="{{ post.url }}">Read More...</a></span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

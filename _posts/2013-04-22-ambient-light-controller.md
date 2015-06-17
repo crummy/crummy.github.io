@@ -6,9 +6,11 @@ redirect_from: wp/ambient-light-controller/145/
 categories:
   - blog
 ---
-![My lamp is placed behind my monitor](/assets/2013-04-21-22.27.49.jpg)
 
 A while ago I saw [amBX][1] online, a lighting system for your computer that changes colours depending what is on screen. Kind of cool but not really necessary. However, after receiving my [Phillips Hue lights][2], I wondered if I could hack together the same thing.
+
+![My lamp is placed behind my monitor](/assets/2013-04-21-22.27.49.jpg)
+
 
 So I did, and it was surprisingly easy - less than 80 lines of code! Here's the general idea:
 

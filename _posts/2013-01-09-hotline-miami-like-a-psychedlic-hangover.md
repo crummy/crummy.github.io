@@ -6,9 +6,10 @@ redirect_from: wp/hotline-miami-like-a-psychedlic-hangover/136/
 categories:
   - blog
 ---
-![Hotline Miami logo small](/assets/Hotline-Miami-Logo-Small.png)
 
 There are plenty of video games that match the bullet points on an imagined box for Hotline Miami. Plenty of senseless killing, fast action, gratuitous violence - it sounds like just another game action game, so why does it feel so different? It's hard to rave about the game without using phrases that are so overused they just sound generic (heart-pounding, gripping), but I think they are accurate.
+
+![Hotline Miami logo small](/assets/Hotline-Miami-Logo-Small.png)
 
 On the other hand, the game also is very effective at making me feel... gross? Like a fever dream hangover, the low-fi 80s aesthetic and alternately dream-scene-like then high-tempo music create an effect that is, at the least, disconcerting. First, I [load up the game to this music][1]. Then begin play, entering a wild [frenzy of violence][2]. Last - and what an excellent design choice this is - once I've slaughtered every being in the level, [I return through the carnage that you've created to my car, with music like the end of a bad trip playing][3].
 

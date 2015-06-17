@@ -6,9 +6,10 @@ redirect_from: wp/medusa-in-mexico/81/
 categories:
   - blog
 ---
-![Under sail](/assets/medusa2.jpg)
 
 My sister Naomi just reached the end of her six month sailing trip. After much searching, she bought a Columbia 23 with trailer for a couple grand and spent a summer preparing her. In October she crossed the border and put Medusa in the water at the top of the Sea of Cortez, and set off down the western coast of Central America, meandering down on her own or with whatever crew she could scavenge until reaching El Salvador before the hurricane season began.
+
+![Under sail](/assets/medusa2.jpg)
 
 I was lucky enough to crew for Naomi over Christmas break. It'd been a good fifteen years since either of us had spent any considerable time on a boat, and Naomi's laid-back attitude to a lot of things had me wondering if she'd still be afloat by the time I got to meet her in Mazatlan. Turns out my fears weren't too far off the mark, as the day before I arrived, immediately after setting off from the southern tip of Baja for the two day trip to Mazatlan, Medusa's rudder fell off.
 

@@ -6,9 +6,10 @@ redirect_from: wp/indie-game-the-movie/52/
 categories:
   - blog
 ---
-![The directors](/assets/photo.jpg)
 
 Last Friday I was lucky enough to see the first screening of [Indie Game: The Movie][1] at the Rio Theatre with some friends. I'd pushed a few of them in to coming and was worried - I did the same thing once with Max Payne (the movie, that is) which obviously ended poorly. Turns out the movie was great and everyone loved it!
+
+![The directors](/assets/photo.jpg)
 
 The documentary follows the long development of [Fez][2] by Phil Fish, the development and release of [Super Meat Boy][3] by Ed McMillen (Santa Cruz local!) and Tommy Refenes, and a post-release followup with Jonathan Blow about [Braid][4]. Super Meat Boy's development was shown as an exercise in sleep deprivation as they sought to meet a release window deadline, Fez fought for funding and legal existence with an ex-partner, and Blow talked about Braid as a only partially successful attempt to communicate his ideas (amusingly juxtaposed with [Soulja Boy's impressions of the game][5]). We also got a long Q&A with Team Meat, Phil Fish, and the directors afterwards.
 
