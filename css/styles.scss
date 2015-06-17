@@ -133,7 +133,7 @@ nav {
   border-radius: 4px;
 }
 .project .screenshot {
-  height: 150px;
+  max-height: 150px;
   width: 200px;
   overflow: hidden;
 }
@@ -141,7 +141,9 @@ nav {
   display: block;
   max-width: 100%;
   margin: auto;
-  padding-left: 1em;
+}
+.project .container {
+  align-items: center;
 }
 .project .container, .post .container {
   display: flex;
@@ -200,13 +202,21 @@ h2 a, h2 a:visited {
 #recentBlogPosts .title {
   padding: 0 0.5em 0 0.5em;
 }
-#recentBlogPosts .post {
+#recentBlogPosts a {
   margin: 1em;
+  display: inline-flex;
+  flex: 1;
+  text-decoration: none;
+  color: $primary-text;
 }
-#recentBlogPosts .post:first-child {
-  margin-left: 0;
+.readmore {
+  text-decoration: underline;
+  color:$dark-primary-color;
 }
-#recentBlogPosts .post:last-child {
+#recentBlogPosts a:first-child {
+  margin-left: 0; 
+}
+#recentBlogPosts a:last-child {
   margin-right: 0;
 }
 h3 {
@@ -271,7 +281,7 @@ footer a, footer a:visited {
   .left {
     display: none; 
   }
-  #recentBlogPosts .post {
+  #recentBlogPosts a {
     margin-left: 0;
     margin-right: 0;
   }
