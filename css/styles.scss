@@ -213,12 +213,18 @@ h2 a, h2 a:visited {
   cursor: pointer;
   min-width: 26%;
 }
+#blogposts h2 {
+  margin: 0;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+}
 .readmore {
   display: block;
   padding: 0.5em 0 1em 0;
 }
 h3 {
-  margin: 0 auto;
+  margin: 1em auto 0 auto;
   text-align: center;
 }
 footer {
@@ -275,8 +281,11 @@ footer a, footer a:visited {
   footer .credits {
     width: 80%;
   }
-  #blogposts, .blognavigation, #aboutme div, .post .container, .project .container {
+  #blogposts, .blognavigation, .post .container, .project .container {
     flex-direction: column;
+  }
+  #aboutinner img {
+    display: none; 
   }
   .left {
     display: none; 
