@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Circle Snakes by Malcolm Crum</title>
+    
+    <style>
+      @keyframes slither6 {
+        0% {transform: translateX(-6%);}
+        100% {transform: translateX(6%);}
+      }
+      @keyframes slither12 {
+        0% {transform: translateX(-12%);}
+        100% {transform: translateX(12%);}
+      }
+      @keyframes slither15 {
+        0% {transform: translateX(-15%);}
+        100% {transform: translateX(15%);}
+      }
+      @keyframes slither24 {
+        0% {transform: translateX(-24%);}
+        100% {transform: translateX(24%);}
+      }
+      @keyframes slither40 {
+        0% {transform: translateX(-40%);}
+        100% {transform: translateX(40%);}
+      }
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0; 
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+      }
+      .circle {
+        border-radius: 50%;
+        display: flex;
+        margin: calc(100vw/11);
+      }
+      .circle > .circle {
+        transform: translateX(-6%);
+        animation: slither6 1.5s 2.5s infinite alternate ease-in-out;
+      }
+      .circle > .circle > .circle {
+        transform: translateX(-12%);
+        animation: slither12 1.5s 2s infinite alternate ease-in-out;
+      }
+      .circle > .circle > .circle > .circle {
+        transform: translateX(-15%);
+        animation: slither15 1.5s 1.5s infinite alternate ease-in-out;
+      }
+      .circle > .circle > .circle > .circle > .circle {
+        transform: translateX(-24%);
+        animation: slither24 1.5s 1s infinite alternate ease-in-out;
+      }
+      .circle > .circle > .circle > .circle > .circle > .circle {
+        transform: translateX(-40%);
+        animation: slither40 1.5s .5s infinite alternate ease-in-out;
+      }
+      .circle > .circle > .circle > .circle > .circle > .circle > .circle {
+        /* This one doesn't get shown. */
+      }
+      .black {
+        background-color: black; 
+      }
+      .white {
+        background-color: white; 
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="circle white">
+      <div class="circle black">
+        <div class="circle white">
+          <div class="circle black">
+            <div class="circle white">
+              <div class="circle black">
+                <div class="circle white"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

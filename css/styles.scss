@@ -103,7 +103,7 @@ nav {
 #aboutme img {
   float: left;
   margin-right: 2em;
-  width: 100%;
+  max-width: 100%;
 }
 #aboutinner {
   margin: auto;
@@ -120,6 +120,7 @@ nav {
   margin: 16px auto;
   background-color: $lightest-primary-color;
   box-shadow: 0 0 0.1em $primary-text;
+  min-height: 1px; /* ie fix */
 }
 .title {
   border-top: 8px solid $dark-primary-color;
@@ -171,6 +172,7 @@ h2 a, h2 a:visited {
 .project .description, .post .content, .right {
   padding: 0 8px 0 8px;
   flex: 3;
+  min-width: 1px /* firefox fix - see http://stackoverflow.com/questions/27424831/firefox-flexbox-overflow */
 }
 .content iframe, .content img {
   margin: 0 auto;
