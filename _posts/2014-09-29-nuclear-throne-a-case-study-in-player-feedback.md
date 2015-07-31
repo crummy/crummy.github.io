@@ -39,4 +39,4 @@ Enemies drop experience points, and with upgrades can also provide health and am
 
 The final effect is that each weapon feels very different from any other, and without needing to spend extensive time learning each one, players can follow hints of screen shake, sound effects, projectile speed and so forth to hint at the potential uses of each. For me, this stacking of feedback all adds up to a experience that feels *solid,* in a way that's easy to understand upon playing but hard to communicate otherwise.
 
- [1]: http://www.vlambeer.com/
+[1]: http://www.vlambeer.com/
