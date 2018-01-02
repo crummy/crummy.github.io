@@ -2,43 +2,17 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="title">
-      <div class="left"></div>
-      <h2 class="right"><a href="{{ post.url }}">{{ page.title }}</a></h2>
-  </div>
-  
-  <div class="container">
-    <div class="date">{{ page.date | date_to_string }}</div>
-    <div class="content">
-      {{ content }}
-    </div>
-  </div>
-  
-  <div class="blognavigation">
-    {% for post in site.categories.blog %}
-      {% if post.url == page.url %}
-        {% assign post_index0 = forloop.index0 %}
-        {% assign post_index1 = forloop.index %}
-      {% endif %}
-    {% endfor %}
-    {% for post in site.categories.blog %}
-      {% if post_index0 == forloop.index %}
-        {% assign next_post = post %}
-      {% endif %}
-      {% if post_index1 == forloop.index0 %}
-        {% assign prev_post = post %}
-      {% endif %}
-    {% endfor %}
-  
-    {% if prev_post.url %}
-      <div class="prev"><a href="{{ prev_post.url }}">&lt; {{ prev_post.title }}</a></div>
-    {% endif %}
-    {% if next_post.url %}
-      <div class="next"><a href="{{ next_post.url }}">{{ next_post.title }} &gt;</a></div>
-    {% endif %}
-  </div>
-  
-</div>
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
 
-{% include latestblogposts.html %}
+  <div class="post-body">
+    {{ content }}
+    {% include post-tags.html post=page %}
+  </div>
+
+  {% include comments.html %}
+  {% include related_posts.html %}
+</div>

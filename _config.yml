@@ -1,4 +1,29 @@
 title: Malcolm Crum
-description: Personal website of Malcolm Crum, a guy who makes stuff on computers
-gems:
- - jekyll-redirect-from
+description: I make stuff with computers.
+
+ # Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+url:              http://malcolmcrum.com
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Malcolm Crum'
+  url:            https://twitter.com/crummy
+
+paginate:         5
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Custom vars
+sidebar_home_link:  false
+github:
+  repo:             https://github.com/crummy/
