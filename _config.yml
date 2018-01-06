@@ -27,3 +27,4 @@ plugins:
 sidebar_home_link:  false
 github:
   repo:             https://github.com/crummy/
+google_analytics:   UA-22950801-1
