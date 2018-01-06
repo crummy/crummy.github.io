@@ -6,8 +6,7 @@ redirect_from: wp/penguin-pull-project/26/
 categories:
   - blog
 tags:
-  - coding
-  - penguinpull
+  - dev
   - project
 ---
 In Winter 2011, I took CMPS20 at UCSC, taught by Arnav Jhala. The course title is 'The Game Design Experience,' and involved forming a team of four students (with a grad or teacher as mentor) and creating a game from scratch using XNA, for the eventual submission to the [Imagine Cup][1]. Penguin Pull was my group's creation: a retro-styled arcade game involving dodging obstacles and picking up penguins, while keeping your ice floe in the shade of clouds as you traveled onwards.

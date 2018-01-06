@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/the-joy-of-movement/105/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 
 I picked up [Zineth][1], a free student-made punk-styled game, after someone mentioned it on Twitter and was surprised to remember just how fun navigating a virtual space can be. The game involves skating, sliding and leaping through an ultra-stylized 3D world in some kind of mash up between Tony Hawk and Tribes, and while it sure feels rough around the edges at times, it can be an absolute joy to play. The sensation of speed and powerful movement ends up making me feel like a barely-in-control superhero.

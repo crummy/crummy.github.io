@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/god-hand-and-difficulty/43/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 In one of those weird urges, last week I decided to play through God Hand for the third time. I'm normally not one for difficult games but God Hand's mix of beat-em-up combat amongst ludicrous characters and setting managed to get me hooked before.
 

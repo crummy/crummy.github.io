@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/building-a-nuclear-throne-_ebooks-bot/167/
 categories:
   - blog
+tags:
+  - dev
+  - games
 ---
 A little background: @horse_ebooks at some point was a spam Twitter account that followed some algorithm to tweet odd amalgamations of sentences that people decided was cute or interesting. Eventually it turned into a weird art project thing but that's not too important - eventually people took the idea and built their own little Twitter bots that did something similar.
 

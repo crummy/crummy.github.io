@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/batman-arkham-city-impressions/41/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 I just wrapped up the main story in Batman: Arkham City, and according to my save I'm 35% of the way through the game. This is a good indicator of just how much *stuff* there is in the game - extra skills, side missions, Riddler tokens, challenge levels, all available to find and unlock through the city. I've heard from many players who just love this stuff (and if you are that kind of person then you will *love* Arkham City) but I wonder if there's a tipping point where it becomes overwhelming. I picked up the immediately obvious Riddler tokens, and unlocked the grapple boost because it seemed like a useful mechanic, but rarely sought out any objectives not immediately related to the main story. I did enjoy how the Riddler almost made fun of the achievement-hungry when he first introduced himself.
 

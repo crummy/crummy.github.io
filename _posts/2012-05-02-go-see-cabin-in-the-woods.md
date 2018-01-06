@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/go-see-cabin-in-the-woods/72/
 categories:
   - blog
+tags:
+  - movies
+  - review
 ---
 
 I have two projects due this week and two midterms next week so all I'm going to say is: Go see [The Cabin in the Woods][1]. It's a non-traditional horror movie, and I hardly like horror movies at all. That's all the detail I want to get into because it's really a movie you should go see with as few expectations as possible.

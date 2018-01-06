@@ -4,7 +4,10 @@ author: Malcolm
 layout: post
 redirect_from: wp/entertaining-vs-artistic-games/68/
 categories:
+  - blog
+tags:
   - games
+  - analysis
 ---
 I had a chat with my friend [James Hawkins][1] about [The Atlantic's article on Jonathan Blow][2] that has been getting a fair bit of attention lately. Blow seems to take his games very seriously as a medium to convey a message, and looks with disdain on the many mainstream games that aim for entertainment instead. As a result he's seen as a bit pretentious to some (not much of an insult in gaming as [Chris Remo points out][3]) or even arrogant, but I think he recognizes gaming's potential and feels frustration at being the lone (loud) voice on the topic.
 

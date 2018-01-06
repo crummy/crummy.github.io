@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/hotline-miami-like-a-psychedlic-hangover/136/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 
 There are plenty of video games that match the bullet points on an imagined box for Hotline Miami. Plenty of senseless killing, fast action, gratuitous violence - it sounds like just another game action game, so why does it feel so different? It's hard to rave about the game without using phrases that are so overused they just sound generic (heart-pounding, gripping), but I think they are accurate.

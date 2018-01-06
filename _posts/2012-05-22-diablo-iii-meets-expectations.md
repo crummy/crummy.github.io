@@ -4,7 +4,10 @@ author: Malcolm
 layout: post
 redirect_from: wp/diablo-iii-meets-expectations/80/
 categories:
+  - blog
+tags:
   - games
+  - review
 ---
 Well, that headline sure makes the game sound boring, doesn't it? It's deliberately deceptive to be honest because Diablo III, after a decade or so in the making, has some pretty high expectations. That said, some people have been disappointed with certain aspects of the game and I think it's because they had unreasonable expectations for the game.
 

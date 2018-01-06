@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/self-balancing-multiplayer/35/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 Lately I've been playing some games that aren't video games and it occurred to me how some self-balance in a very useful way, allowing experts and newbies to mutually enjoy a game.
 

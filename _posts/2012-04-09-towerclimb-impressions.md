@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/towerclimb-impressions/59/
 categories:
   - blog
+tags:
+  - games
+  - preview
 ---
 Mmm, if there's one thing I love it's procedurally generated games. Roguelikes are probably the best example of this, having been around since the 80s, and I enjoy them but am usually overcome by their complexity. My favourite one is [Spelunky][1], featuring a near-endless sidescrolling adventure downwards towards more treasure and more danger, but I recently discovered a new one, [TowerClimb][2].
 

@@ -4,6 +4,8 @@ author: Malcolm
 layout: post
 categories:
   - blog
+tags:
+  - dev
 ---
 
 Inspired by Shamus Young's [Procedural City](http://www.shamusyoung.com/twentysidedtale/?p=2940) series, where he builds a randomly generated city set at night, I decided to attempt to recreate his metropolis in Javascript, using Three.js, a library I'd experimented with briefly but never really used.

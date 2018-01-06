@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/letterpress-is-the-turn-based-iphone-word-game-you-should-be-playing/130/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 I don't even know why I played so much Words With Friends. The more I played the more I became disillusioned with the core game: they took Scrabble, took out what made Scrabble great, and then put it on the iPhone. No longer was it a game of smarts and vocabulary, impressing your friends with big words - 'is that even a word?' - but instead a game of repeatedly [putting down every combination of letters on the triple word score][1] until the game decides that you've somehow come across a word. But every time I'd get that notification that my friend played a turn I'd have to go back and play.
 

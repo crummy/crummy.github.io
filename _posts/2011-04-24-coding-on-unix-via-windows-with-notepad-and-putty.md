@@ -6,7 +6,7 @@ redirect_from: wp/coding-on-unix-via-windows-with-notepad-and-putty/14/
 categories:
   - blog
 tags:
-  - coding
+  - dev
   - tips
 ---
 Many universities and colleges require a Unix coding environment for students, with SSH access for remote editing. If you're familiar with vi or emacs then that's probably all fine, but for the children of the GUI era, something a little more modern may be in order. With Notepad++ you can code as if it was on your machine, and with Putty you can run your code it as if it was on your machine. Here's how:

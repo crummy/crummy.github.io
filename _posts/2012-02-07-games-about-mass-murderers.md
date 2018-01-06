@@ -6,7 +6,8 @@ redirect_from: wp/games-about-mass-murderers/44/
 categories:
   - blog
 tags:
-  - design
+  - analysis
+  - games
 ---
 Over the weekend I finished Uncharted: Drake's Fortune. It's a very  
 well constructed game, ensuring I never got stuck for too long while  

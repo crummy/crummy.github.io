@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/telltale-games-the-walking-dead/102/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 
 Once in a while we all feel a bit disillusioned with video games, like every big new title that comes out is really digging us deeper into some cultural backwater. Next time you feel like that, fire up The Walking Dead, the latest adventure game from Telltale Games, loosely based on the comic books of the same name. I played through the first two episodes and was totally engrossed, despite previously thinking I despised all adventure games.

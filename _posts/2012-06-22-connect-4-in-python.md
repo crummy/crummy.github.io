@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/connect-4-in-python/89/
 categories:
   - blog
+tags:
+  - dev
 ---
 
 I'm on a road trip from Santa Barbara to Portland, which should be the best time to write but the drive has given me writer's cramp.

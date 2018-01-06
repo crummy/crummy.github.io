@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/walk-a-mile-in-another-mans-eyes/100/
 categories:
   - blog
+tags:
+  - apps
 ---
 I can't really remember where I came upon it, but somehow I ended up with a pretty fascinating iPhone app called [Chromatic Vision Simulator][1]. It's a very simple app that utilises the camera - point it at something colourful, select a variety of colourblindness, and you'll see the colour-limited version on screen. It does it job without any fuss and even features a few nice side-by-side comparisons.
 

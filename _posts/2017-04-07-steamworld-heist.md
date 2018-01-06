@@ -6,6 +6,7 @@ categories:
   - blog
 tags:
   - review
+  - games
 ---
 
 Often conversations about recent video games center around what a game does that's new, as if new experiences were like a breath of fresh air. In the case of Steamworld Heist, there is little that is really novel, but the humble execution of the game as a whole feels genuinely refreshing.

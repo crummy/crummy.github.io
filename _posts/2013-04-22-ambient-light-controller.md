@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/ambient-light-controller/145/
 categories:
   - blog
+tags:
+  - dev
 ---
 
 A while ago I saw [amBX][1] online, a lighting system for your computer that changes colours depending what is on screen. Kind of cool but not really necessary. However, after receiving my [Phillips Hue lights][2], I wondered if I could hack together the same thing.

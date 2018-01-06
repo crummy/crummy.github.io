@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/dota-2-is-complex/48/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 From a game design standpoint, Dota 2 seems like an objectively bad game. There are several design decisions (that I suspect are mostly due to the series' origins in the Warcraft 3 engine and its restrictions) that appear from the outside to be pretty darned stupid. Somehow it all comes together for a clearly very successful game, though.
 

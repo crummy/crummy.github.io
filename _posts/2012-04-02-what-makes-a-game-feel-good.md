@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/what-makes-a-game-feel-good/36/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 I've wondered what makes certain games 'feel' better almost as long as I've noticed it. I [asked Reddit what they thought][1] and it made me realise that it's even harder to answer this question people seem to have different definitions of what game 'feel' is anyway. Something about the controls being responsive, cohesive interactions with appropriate feedback, a consistent aesthetic, as well as a half dozen other indicators factor in, apparently.
 

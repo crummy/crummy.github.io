@@ -6,8 +6,8 @@ categories:
   - blog
 tags:
   - unity
-  - gamedev
   - gamejam
+  - dev
 ---
 
 Yesterday I attended my second gamejam, an eight hour event where teams form to work on small games

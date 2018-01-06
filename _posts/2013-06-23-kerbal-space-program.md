@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/kerbal-space-program/148/
 categories:
   - blog
+tags:
+  - games
 ---
 
 Kerbal Space Program is a) the game NASA should have made long ago and b) something that should be in every classroom. The game centers largely around two modes: build a spaceship out of somewhat realistic parts (rockets, fuel tanks, solar panels, crew pods, etc.), and then attempt to launch your rocket into space, where you can orbit your planet, travel elsewhere, perform a spacewalk or whatever you'd like. The only failure state is crashing (or your rocket exploding from poor design or overheating), and goals are whatever you decide.

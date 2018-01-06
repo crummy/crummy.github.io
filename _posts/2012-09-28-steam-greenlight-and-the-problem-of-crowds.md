@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/steam-greenlight-and-the-problem-of-crowds/123/
 categories:
   - blog
+tags:
+  - games
 ---
 I meant to post about this earlier, but the whole [controversy surrounding Steam Greenlight's $100 fee][1] took the attention away from what I consider to be the core issue with the service. Greenlight allows the gaming community to vote on which developer-submitted titles they wish to see on Steam, but I'm not sure it's as successful as Valve is hoping. The reason (and I'm still working on the phrasing of this) is: people are stupid. Individuals may be smart but you get a large enough group of people together and you'll see some pretty dumb things happening.
 

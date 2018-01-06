@@ -7,6 +7,7 @@ categories:
   - blog
 tags:
   - books
+  - review
 ---
 On the trip I read [Ready Player One][1] by Ernest Cline. School doesn't leave much time for reading anything not class related so it's great being able to have some spare time again. I used to read a ton as a kid, and it sort of feels like I'm not as good at it anymore. I think that might be a shorter attention span, but who knows.
 

@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/battlefield-3-beta-impressions-flawed-but-fun/31/
 categories:
   - blog
+tags:
+  - games
+  - preview
 ---
 I've put about ten hours into the Battlefield 3 beta now, after getting in once it went public, and my general feeling about the game has changed from eager anticipation to mild disappointment and frustration upon release to now feeling pretty confident about the game. It definitely has some flaws but it's captured the excitement and fun of the previous games well.
 

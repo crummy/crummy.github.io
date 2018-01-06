@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/xcom-enemy-unknown-a-modern-retelling/133/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 I'd only briefly played a few of the XCOM games, many years after they were released, and dismissed them pretty quickly as not my type of game. I picked up the new one after hearing so many good things about it and enjoying the demo, and it immediately hooked me. XCOM: Enemy Unknown is an old fashioned game that feels very modern, and I love how successful it's being for doing so.
 

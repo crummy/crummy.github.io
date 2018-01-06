@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - css
+  - creativecoding
+  - dev
 ---
 Phantogram always puts on a great concert and at the last one I was struck by a black and white animated backdrop of concentric circles giving the illusion of a slithering snake. As a challenge I decided to see if I could recreate this effect in a web browser. After starting out with Snap.svg I realised I could probably do the whole thing in CSS.
 

@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/softening-the-blow-of-losing/54/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 I've been playing *Dota 2* lately, and it has made me think a lot about losing (cue laughter). Losing is part of any competitive game but there are steps that can be made to soften the blow.
 

@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/dance-dance-revolution-still-awesome/47/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 
 In 2005-ish I went through a serious Dance Dance Revolution phase. My girlfriend, my two cousins, and I had a setup where we progressed through increasingly more expensive pads as we wore out the last ones, hooked up to a computer with a thousand or so songs, connected to an old TV. Many late nights were spent with high pitched J-pop blasting out the playroom windows (had to be open; it gets bloody hot playing just a few songs).

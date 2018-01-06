@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/dangerous-games/108/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 Firstly: I'm loving [10000000][1] , a retro-styled iOS puzzle RPG hybrid. It plays like Tetris Attack with RPG mechanics - on the top of your screen you trudge through an eternal dungeon, and you match keys on the bottom screen to open chests or swords to slay monsters, for example. You'll die a lot; each gameplay session only lasts a few minutes, which is perfect for iPhone gaming.
 

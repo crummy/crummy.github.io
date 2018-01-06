@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/terry-cavanaghs-super-hexagon-and-vvvvvv/120/
 categories:
   - blog
+tags:
+  - games
+  - review
 ---
 What's the old saying about a good engineer being done when everything is taken away? I'm certain you can apply that adage completely to Terry Cavanagh's games. Another that would fit quite well is 'easy to learn, hard to master.' I think a game that defines itself so simply and elegantly as [Super Hexagon][1] or [VVVVVV][2] leaves little room for flaws and leaves a much stronger impression as a quintessential *game*.
 

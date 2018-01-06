@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/day-z-zombie-simulator-extraordinaire/78/
 categories:
   - blog
+tags:
+  - review
+  - games
 ---
 Today, the day of Diablo 3's release, I'm stuck with an unworking computer thanks to a BIOS update gone wrong. So, while everyone else is either slaying demons or staring at login errors I suppose I'll talk about my recent experiences in Day Z, the ARMA II mod that's getting a huge amount of press lately.
 

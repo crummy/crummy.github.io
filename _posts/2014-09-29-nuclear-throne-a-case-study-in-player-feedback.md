@@ -5,6 +5,9 @@ layout: post
 redirect_from: wp/nuclear-throne-a-case-study-in-player-feedback/165/
 categories:
   - blog
+tags:
+  - games
+  - analysis
 ---
 
 Nuclear Throne, an early access retro-styled action game from [Vlambeer][1], has held my attention since I bought it last week. The randomly generated levels maintain balance, the game is challenging but rarely unfair, and the game looks great, but what is most impressive is the 'juiciness' it provides.

@@ -6,6 +6,7 @@ categories:
   - blog
 tags:
   - review
+  - games
 ---
 
 I'm a sucker for games about digging. I don't know what it is, but there's something

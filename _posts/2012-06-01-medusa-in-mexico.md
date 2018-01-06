@@ -5,6 +5,8 @@ layout: post
 redirect_from: wp/medusa-in-mexico/81/
 categories:
   - blog
+tags:
+  - outdoors
 ---
 
 My sister Naomi just reached the end of her six month sailing trip. After much searching, she bought a Columbia 23 with trailer for a couple grand and spent a summer preparing her. In October she crossed the border and put Medusa in the water at the top of the Sea of Cortez, and set off down the western coast of Central America, meandering down on her own or with whatever crew she could scavenge until reaching El Salvador before the hurricane season began.
