@@ -8,7 +8,7 @@ categories:
 tags:
   - class
   - opengl
-  - programming
+  - dev
   - project
 ---
 Amidst ultra-dry classes like Compiler Design and Computational Modeling, last quarter I took a class that I really enjoyed: Introduction to Computer Graphics. It effectively was an openGL class, going over coordinate systems, transformations, shading techniques and such, but what I really enjoyed were the labs. They probably had a similar level of coding to previous CS classes, but something about being able to get a visual result so immediately was very satisfying. Plus it's easier to show off a 3d model to your friends than a sort algorithm, I suppose.

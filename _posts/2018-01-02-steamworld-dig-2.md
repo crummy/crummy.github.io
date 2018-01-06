@@ -32,6 +32,5 @@ is common among games from smaller developers. Part of me laments the tough mini
 simulator that I wanted but you must judge a game based on the difference between
 what it is and what it wanted to be, as opposed to what you wanted it to be.
 
-In that regard, Steamworld Dig 2 is a strong success. Find it on [Steam]
-(http://store.steampowered.com/app/571310/SteamWorld_Dig_2/) or other platforms on 
+In that regard, Steamworld Dig 2 is a strong success. Find it on [Steam](http://store.steampowered.com/app/571310/SteamWorld_Dig_2/) or other platforms on 
 [Image and Form's website](http://imageform.se/game/steamworld-dig-2/).
