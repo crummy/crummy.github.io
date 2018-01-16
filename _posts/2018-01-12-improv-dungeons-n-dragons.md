@@ -44,10 +44,10 @@ sessions of play with drama and excitement that is built together by
 actions of the players and the world imagined by the storyteller.
 
 "A shared narrative experience" is how I described it when convincing my
-friends to try it out, but perhaps a better descrition is just imagining
+friends to try it out, but perhaps a better description is just imagining
 things for grown-ups. Kids spend a lot of time in their imaginations,
 with imaginary friends, playing cops and robbers, etc., but aside from
 imagination used towards a specific physical output (writing a book, for 
 example) or stage improv (which is more performative) there is little room
-for adults to play in an imaginary space. That's what Dungeons and Dragons
-(and other role-playing games) can provide.
+for adults to play in an imaginary space. That's what games like Dungeons 
+and Dragons can provide.
