@@ -1,5 +1,5 @@
 ---
-title: Apex Legends: Polished to a shine
+title: Apex Legends - Polished to a shine
 author: Malcolm
 layout: post
 categories:
