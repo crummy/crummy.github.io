@@ -29,7 +29,7 @@ doing delivery during COVID-19 and ordering is a painful process with a PDF
 to print. It made me think there must be other small shops out there with a
 need for this.
 
-(Here's what I built)[https://www.storefront.nz/windsong], and how:
+[Here's what I built](https://www.storefront.nz/windsong), and how:
 
 ![Windsong Orchard page on Storefront.nz](/assets/storefront_windsong.png)
 

@@ -11,7 +11,7 @@ tags:
 
 Apex Legends is the latest in a genre nearing saturation, amongst "battle royale" shooters
 like Fortnite and PUBG. I was struck at just how "good" it felt immediately upon playing it,
-and after reading (Derek Yu's twitter thread on "jank")[https://twitter.com/mossmouth/status/1094742994236801025]
+and after reading [Derek Yu's twitter thread on "jank"](https://twitter.com/mossmouth/status/1094742994236801025)
 I started thinking about viewing games through the lens of what they do new and what they
 do well.
 
