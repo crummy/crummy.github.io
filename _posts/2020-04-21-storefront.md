@@ -66,7 +66,7 @@ made it easy.
 # Google Sheets
 
 Almost the highlight of this project is the use of a single Google Sheet as
-(most of) the backend. 
+a CMS. 
 
 ![Google Sheet backing the Windsong Orchard page](/assets/storefront_sheet.png)
 
@@ -105,7 +105,7 @@ when querying the Google Sheets API.
 * For someone who isn't a frontend developer, Svelte was a pleasure to work with.
 I understand its advantages are being responsive and small but I appreciated
 being able to write actual HTML+CSS+JS and it all working like I expected.
-* Google Sheets as a backend is a highly underrated option! Reading and writing
+* Google Sheets as a CMS is a highly underrated option! Reading and writing
 to it is easy and it's so good not to have to deal with security on your own app.
 Obviously you wouldn't want to use it for something huge but there are lots of
 small sites out there.
