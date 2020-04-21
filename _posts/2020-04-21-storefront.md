@@ -78,8 +78,8 @@ Sheet's permission system to manage things.
 
 The API is a liiittle slow to respond but it's a small issue and it would be easy
 to cache the spreadsheet in DynamoDB if needed. (Actually, if I really wanted
-to do this write, when the spreadsheet updated I'd trigger a Lambda to generate
-a static page generated from the spreadsheet...))
+to do this right, when the spreadsheet updated I'd trigger a Lambda to generate
+a static page generated from the spreadsheet...)
 
 # What went wrong
 
