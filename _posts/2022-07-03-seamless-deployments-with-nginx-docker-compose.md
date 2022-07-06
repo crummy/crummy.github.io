@@ -21,7 +21,7 @@ to be able to deploy as often and as easily as possible.
 # Seamlessly deploying the app
 
 The engineering team at Tines
-[came up with a solution](https://engineering.tines.com/blog/simple-zero-downtime-deploys
+[came up with a solution](https://engineering.tines.com/blog/simple-zero-downtime-deploys)
 which I have adopted. The process involves, with a simple bash script:
 
 1. Spin up a new instance of the web app using Docker Compose
