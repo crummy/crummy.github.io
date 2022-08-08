@@ -235,9 +235,10 @@ staring at a `long` you might think it stores epoch *seconds*. Java has a better
 `Instant`, which you can retrieve either from. I wanted our devs to use `Instant`s instead of
 `long`s in our DTOs, so:
 
-1. I added a long -> instant deserializer and instant -> long serializer to our JSON serializer
-2. I told `typescript-generator` to convert Instants to numbers with a `<customTypeMapping>`
-3. I adjusted my `getType(parameter)` class to convert `Instant`s to `number`s instead.
+1. I added a `long` to `Instant` deserializer and `Instant` to `long` serializer to our JSON serializer
+2. I told `typescript-generator` to convert `Instant`s to `number`s with a `<customTypeMapping>`
+in `types.d.ts`
+3. I adjusted my `getType(parameter)` class to convert `Instant`s to `number`s instead in `api.ts`
 
 That was it! Having written our own tooling this was an easy task and allowed us to further
 strengthen our use of types to reduce another source of bugs.
