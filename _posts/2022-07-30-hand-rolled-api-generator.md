@@ -1,5 +1,5 @@
 ---
-title: "Java/TS API generation"
+title: "Java/TypeScript API generation"
 author: Malcolm
 layout: post
 categories:
