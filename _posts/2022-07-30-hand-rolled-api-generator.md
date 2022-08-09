@@ -150,12 +150,12 @@ client generator when we run `mvn package`.
 One bit of magic I'm skipping over is the `getType(parameter)` call. This converts Java
 classes to Typescript equivalents. Here's basically how the conversions work:
 
-* String -> string
-* int, Integer, float, Float, double, Double, long, Long -> number
-* Object -> any
-* Array, List, Set, Collection of T ->  T[]
-* Map<K, V> -> Record<K, V>
-* Otherwise, just use the object's class name (e.g. UserDto)
+* `String` -> `string`
+* `int`, `Integer`, `float`, `Float`, `double`, `Double`, `long`, `Long` -> `number`
+* `Object` -> `any`
+* `Array<T>`, `List<T>`, `Set<T>`, `Collection<T>` ->  `Array<T>`
+* `Map<K, V>` -> `Record<K, V>`
+* Otherwise, just use the object's class name (e.g. `UserDto`)
 
 Now you're almost ready to call `new UsersApi().getUser(1001)` - we're just missing the
 Typescript type for the UserDto returned.
