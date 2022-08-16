@@ -1,5 +1,5 @@
 ---
-title: "Java/TypeScript API generation"
+title: "Seamless backend/frontend communication with code generation"
 author: Malcolm
 layout: post
 categories:
@@ -218,6 +218,16 @@ The end result is that adding a new endpoint looks like this:
 on the backend
 2. Run `mvn package` to update our Typescript files
 3. In the frontend, write `new UsersService().changeUsername(1001, "foo")` - that's it!
+
+# Caveats
+
+There are a few lessons we've learned along the way that are worth noting, including:
+
+* Java's `Map` is a lot more flexible than Javascript objects. Particularly
+in Javascript objects can only have strings as keys, so don't return a
+`Map<MyRecord, String>`
+* Javascript has no method overloading so if you declare a `getUser()`
+and `getUser(int userId)` you'll run into issues.
 
 # Conclusions
 
