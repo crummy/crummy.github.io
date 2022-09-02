@@ -129,7 +129,8 @@ String toTypescript(Class... api) {
 
 Hmm... is that more readable? If you'd prefer you can read the
 [actual code](https://github.com/crummy/java-typescript-api-generator/blob/main/src/main/java/com/malcolmcrum/typescriptapigenerator/typescriptgenerator/TypeScriptApiGenerator.java#L44)
-instead. Here's what you might expect to see in the generated Typescript, as an example:
+instead. Mine uses raw strings for simplicity, though I suggest using a templating engine instead.
+Here's what you might expect to see in the generated Typescript, as an example:
 
 ```typescript
 class UsersAPI {
