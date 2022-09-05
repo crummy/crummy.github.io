@@ -24,13 +24,13 @@ Want to skip the explanation and just check out the code?
 Our websocket client code would send messages to our backend, which would
 handle the message and forward it on, hopefully to the right destination.
 
-![Websocket communication... in theory.](assets/simple.png)
+![Websocket communication... in theory.](/assets/simple.png)
 
 In reality, keeping track of what messages contained what fields,
 where they were supposed to go, and who was allowed access got messy pretty
 quickly.
 
-![Websocket communication in reality](assets/messy.png)
+![Websocket communication in reality](/assets/messy.png)
 
 # The new way: A clearly defined interface(s)
 
@@ -39,7 +39,7 @@ Let's group our messages in two:
 * Messages sent from the client
 * Messages sent from the server
 
-![Separating WebSockets into two groups](assets/interface.png)
+![Separating WebSockets into two groups](/assets/interface.png)
 
 This separation gives us a hint on how we can separate our calls
 in code in terms of how we handle it. So we build two interfaces for
@@ -63,7 +63,7 @@ registered for that event
 that allows clients to add themselves to the list of sessions 
 in the client.
 
-![The TypeScript and backend integration](assets/websockets.png)
+![The TypeScript and backend integration](/assets/websockets.png)
 
 The result is client code that looks like this:
 
