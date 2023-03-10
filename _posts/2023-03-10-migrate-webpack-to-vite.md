@@ -128,10 +128,12 @@ note that we need to recursively add the CSS files for all the imports to ensure
 we get all the CSS needed. Then our template will look like this:
 
 ```
+{% raw %}
 <script src="/dist/{{ manifest.file() }" type="module"></script>
 {% for css in manifest.css() %}
     <link rel="stylesheet" href="/assets/{{ css }}">
 {% endfor %}
+{% endraw %}
 ```
 
 So! If we've done our recursion right we should end up with a rendered HTML file
@@ -191,7 +193,7 @@ something to do with hot module reloading, so at least this error only happens i
 fixed it:
 
 1. `npx madge src/index.tsx --circular` to find the circular references
-2. This listed entries like `src/idnex.tsx > Child.tsx`
+2. This listed entries like `src/index.tsx > Child.tsx`
 3. From here I discovered the circular reference above
 4. I moved the `Context` into its own file, `src/context.tsx`, and imported it from both `index.tsx`
    and `child.tsx`
