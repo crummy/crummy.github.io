@@ -230,3 +230,8 @@ There have been a couple other small issues - CSS imports sometimes seem to be i
 Webpack (but again, only in prod, not dev). HMR in certain cases causes UI elements to disappear.
 But the instant updates on editing is *so* fast that it's easily worth it - plus
 shaving a couple minutes of our build time is a nice bonus.
+
+On the other hand, I'm surprised at just how much work it takes to use what the community seems to have settled on
+as the future of build tooling in the ecosystem. With the restrictions and caveats I ran into, it feels
+like I must be on the bleeding edge. I (naively) expected that Vite would be just plain better, and while I'm still
+happy with it there are more drawbacks than I expected.
