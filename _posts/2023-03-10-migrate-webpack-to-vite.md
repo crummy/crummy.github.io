@@ -25,6 +25,7 @@ React code. We also have a bunch of different pages that serve as individual
 React pages. This means we might have a template like this:
 
 ```
+{% raw  %}
 {% block head %}
     {% include 'web/react.html.twig' %}
 {% endblock %}
@@ -38,6 +39,7 @@ React pages. This means we might have a template like this:
 	<script src="/dist/user-bundle.js"></script>
 </div>
 {% endblock %}
+{% endraw %}
 ```
 
 So, our Webpack config takes a bunch of entrypoints like `src/user.tsx` and
@@ -67,6 +69,7 @@ CSS as well, Vite outputs dozens of JS and CSS files. Pointing our backend
 to it is easy in dev mode, after running `vite`:
 
 ```
+{% raw  %}
 {% block head %}
     <script type="module">
         import RefreshRuntime from 'http://localhost:5173/@react-refresh'
@@ -87,6 +90,7 @@ to it is easy in dev mode, after running `vite`:
 	<script src="http://localhost:4568/src/user.tsx"></script>
 </div>
 {% endblock %}
+{% endraw %}
 ```
 
 We no longer include `react.html.twig` - previously we had shared `react.js`
