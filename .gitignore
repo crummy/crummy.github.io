@@ -4,3 +4,4 @@ _site/
 Thumbs.db
 *.iml
 .idea/*
+**/.DS_Store
